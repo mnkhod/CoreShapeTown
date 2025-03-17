@@ -188,16 +188,28 @@ export default class MessagePrefab extends Phaser.GameObjects.Container {
             }
         }
     }
-
+    getPlayerReference() {
+        return this.scene.playerPrefab;
+    }
     conversation(conversationData) {
         if (this.isConversationStarted) return;
-
+    
         this.visible = true;
         this.dialogue = conversationData;
         this.isConversationStarted = true;
         this.conversationMaxIndex = conversationData.length;
         this.conversationIndex = 0;
-
+    
+        const player = this.getPlayerReference();
+        if (player) {
+            if (player.isDialogActive === undefined) {
+                player.isDialogActive = false;
+            }
+            
+            player.isDialogActive = true;
+            console.log("Dialog started, player movement disabled");
+        }
+    
         let dialogue = conversationData[this.conversationIndex];
         
         if (dialogue.msg === "" && dialogue.options) {
@@ -380,6 +392,12 @@ export default class MessagePrefab extends Phaser.GameObjects.Container {
         this.conversationIndex = 0;
         this.dialogue = null;
         this.isTyping = false;
+        
+        const player = this.getPlayerReference();
+        if (player) {
+            player.isDialogActive = false;
+            console.log("Dialog ended, player movement enabled");
+        }
     }
     /* END-USER-CODE */
 }

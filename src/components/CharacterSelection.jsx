@@ -1,9 +1,11 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { characterConfig } from "./CharacterConfig";
+
 const CharacterCustomizer = () => {
   const navigate = useNavigate();
   const [playerName, setPlayerName] = useState('Player');
+  const backgroundMusicRef = useRef(null);
   
   const options = {
     skin: characterConfig.skin.getOptions(),
@@ -17,15 +19,81 @@ const CharacterCustomizer = () => {
     clothing: options.clothing[0]
   });
   
-  // Original sprite sheet order: down=0, up=1, right=2, left=3
-  // Desired order: down=0, right=1, up=2, left=3
-  const spriteSheetMap = [0, 2, 1, 3]; // Maps our desired order to sprite sheet rows
+  const spriteSheetMap = [0, 2, 1, 3];
   const [direction, setDirection] = useState(0);
 
   const SPRITE_SIZE = 24;
   const SPRITE_SCALE = 10;
   const ROWS = 4;
   const COLS = 6;
+
+  useEffect(() => {
+    const openSound = new Audio("/assets/SFX/Theme song/Main menu/Main_Menu_Open.mp3");
+    
+    const backgroundMusic1 = new Audio("/assets/SFX/Theme song/Main menu/Main_Menu_Loop.mp3");
+    const backgroundMusic2 = new Audio("/assets/SFX/Theme song/Main menu/Main_Menu_Loop.mp3");
+    backgroundMusic1.volume = 0.5;
+    backgroundMusic2.volume = 0.5;
+    
+    let currentBackgroundMusic = backgroundMusic1;
+    let nextBackgroundMusic = backgroundMusic2;
+    
+    backgroundMusicRef.current = backgroundMusic1;
+    
+    window.menuBackgroundMusic1 = backgroundMusic1;
+    window.menuBackgroundMusic2 = backgroundMusic2;
+    
+    const handleLoopTransition = () => {
+      nextBackgroundMusic.currentTime = 0;
+      nextBackgroundMusic.play();
+      
+      const temp = currentBackgroundMusic;
+      currentBackgroundMusic = nextBackgroundMusic;
+      nextBackgroundMusic = temp;
+    };
+    
+    const setupNextLoop = () => {
+      const buffer = 0.05;
+      const duration = currentBackgroundMusic.duration;
+      if (duration && duration > buffer) {
+        setTimeout(() => {
+          handleLoopTransition();
+          setupNextLoop();
+        }, (duration - buffer) * 1000);
+      }
+    };
+
+    const playOpeningSound = () => {
+      openSound.play().catch(error => {
+        console.warn("Opening sound playback was prevented:", error);
+        currentBackgroundMusic.play().then(() => {
+          setupNextLoop();
+        }).catch(e => console.warn("Loop playback was also prevented:", e));
+      });
+    };
+    
+    openSound.addEventListener('ended', () => {
+      currentBackgroundMusic.play().then(() => {
+        setupNextLoop();
+      }).catch(error => {
+        console.warn("Loop playback was prevented:", error);
+      });
+    });
+    
+    playOpeningSound();
+    
+    document.addEventListener('click', () => {
+      if (openSound.paused && currentBackgroundMusic.paused) {
+        playOpeningSound();
+      }
+    }, { once: true });
+
+    return () => {
+      openSound.pause();
+      openSound.currentTime = 0;
+      openSound.removeEventListener('ended', () => {});
+    };
+  }, []);
 
   const handleNameChange = (e) => {
     const value = e.target.value.slice(0, 12);
@@ -57,6 +125,8 @@ const CharacterCustomizer = () => {
       }
     });
   };
+
+  // No toggle function needed
 
   const SpriteLayer = ({ src, alt }) => (
     <div 
@@ -126,6 +196,8 @@ const CharacterCustomizer = () => {
         backgroundColor: "#2d2d2d"
       }}
     >
+      {/* No audio controls */}
+
       <div className="flex gap-8 p-8">
         <div className="flex flex-col w-64">
           <div className="mb-4">

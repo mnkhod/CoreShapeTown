@@ -604,6 +604,258 @@
                 "CapitansCabin",
                 "ShellBeach_V01"
             ]
+        },
+        {
+            "prefabId": "0873c53b-c176-43a5-9c5d-f412c0e22d9e",
+            "id": "da86ccd0-7e37-4752-b251-3ec588e304da",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sandStonePrefab_4",
+            "scope": "CLASS",
+            "x": 153,
+            "y": 527
+        },
+        {
+            "prefabId": "ac9f6070-30a8-4bc7-9857-b21c357d5cd7",
+            "id": "5a7fac15-2cec-4e74-8530-21aa64529761",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sandStonePrefab_2",
+            "scope": "CLASS",
+            "x": 132,
+            "y": 574
+        },
+        {
+            "prefabId": "2a1475b3-24c8-4a60-adac-5ae5ec6e91d6",
+            "id": "2493593d-b115-4734-816a-e3f58b145ac2",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sandStonePrefab_1",
+            "scope": "CLASS",
+            "x": 94,
+            "y": 621
+        },
+        {
+            "prefabId": "0873c53b-c176-43a5-9c5d-f412c0e22d9e",
+            "id": "e2c10e12-21a2-48f5-bf90-f1ce7874cbea",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sandStonePrefab",
+            "scope": "CLASS",
+            "x": 114,
+            "y": 682
+        },
+        {
+            "prefabId": "2a1475b3-24c8-4a60-adac-5ae5ec6e91d6",
+            "id": "52ec2591-c5b4-4292-af3b-e4f206fb104e",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sandStonePrefab_3",
+            "scope": "CLASS",
+            "x": 125,
+            "y": 744
+        },
+        {
+            "prefabId": "ac9f6070-30a8-4bc7-9857-b21c357d5cd7",
+            "id": "06d35c59-7226-47de-83e0-6a660e8a5292",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sandStonePrefab_5",
+            "scope": "CLASS",
+            "x": 108,
+            "y": 781
+        },
+        {
+            "prefabId": "ac9f6070-30a8-4bc7-9857-b21c357d5cd7",
+            "id": "18e56bcc-d213-4b64-a5e3-1afb1177a11e",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sandStonePrefab_6",
+            "scope": "CLASS",
+            "x": 237,
+            "y": 351
+        },
+        {
+            "prefabId": "2a1475b3-24c8-4a60-adac-5ae5ec6e91d6",
+            "id": "950f89d4-5ec1-4c91-a2fd-908530bdbe09",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sandStonePrefab_7",
+            "scope": "CLASS",
+            "x": 242,
+            "y": 295
+        },
+        {
+            "prefabId": "ac9f6070-30a8-4bc7-9857-b21c357d5cd7",
+            "id": "79093aa4-e3a4-4975-8127-c5330767d6e7",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sandStonePrefab_8",
+            "scope": "CLASS",
+            "x": 238,
+            "y": 223
+        },
+        {
+            "prefabId": "4305e628-5f83-41b3-8b00-6a1c44c84d84",
+            "id": "df4bf675-d8f6-45c0-95b6-910a3655c2df",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sandStonePrefab_9",
+            "scope": "CLASS",
+            "x": 175,
+            "y": 174
+        },
+        {
+            "prefabId": "4305e628-5f83-41b3-8b00-6a1c44c84d84",
+            "id": "254d5f44-61a2-4981-8601-53ea401995cb",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sandStonePrefab_10",
+            "scope": "CLASS",
+            "x": 2483,
+            "y": 747
+        },
+        {
+            "prefabId": "ac9f6070-30a8-4bc7-9857-b21c357d5cd7",
+            "id": "cb66e15b-cf95-4033-ab51-e1d1f2cb299e",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sandStonePrefab_11",
+            "scope": "CLASS",
+            "x": 2500,
+            "y": 692
+        },
+        {
+            "prefabId": "2a1475b3-24c8-4a60-adac-5ae5ec6e91d6",
+            "id": "2247f32b-7c5d-4b48-8055-75abf04fd771",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sandStonePrefab_12",
+            "scope": "CLASS",
+            "x": 2481,
+            "y": 482
+        },
+        {
+            "prefabId": "4305e628-5f83-41b3-8b00-6a1c44c84d84",
+            "id": "a8f6e459-248b-4cf9-a7cc-8417c62654c7",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sandStonePrefab_13",
+            "scope": "CLASS",
+            "x": 2485,
+            "y": 424
+        },
+        {
+            "prefabId": "4305e628-5f83-41b3-8b00-6a1c44c84d84",
+            "id": "1f8d5d41-a29e-4a33-9af3-1de307c89429",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sandStonePrefab_14",
+            "scope": "CLASS",
+            "x": 2513,
+            "y": 365
+        },
+        {
+            "prefabId": "0873c53b-c176-43a5-9c5d-f412c0e22d9e",
+            "id": "b5cb5319-71ad-4bba-a414-b949462b1a2d",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sandStonePrefab_15",
+            "scope": "CLASS",
+            "x": 2492,
+            "y": 303
+        },
+        {
+            "prefabId": "2a1475b3-24c8-4a60-adac-5ae5ec6e91d6",
+            "id": "afc274f5-da65-49b7-857c-7f82922fbb31",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sandStonePrefab_16",
+            "scope": "CLASS",
+            "x": 2472,
+            "y": 232
+        },
+        {
+            "prefabId": "0873c53b-c176-43a5-9c5d-f412c0e22d9e",
+            "id": "7551b2c3-bdb2-4dd6-866f-e417eb9604f3",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sandStonePrefab_17",
+            "scope": "CLASS",
+            "x": 2495,
+            "y": 179
+        },
+        {
+            "prefabId": "4305e628-5f83-41b3-8b00-6a1c44c84d84",
+            "id": "60eb10e5-bfda-4668-96e0-276aeaea8ee8",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sandStonePrefab_18",
+            "scope": "CLASS",
+            "x": 2498,
+            "y": 539
+        },
+        {
+            "prefabId": "2a1475b3-24c8-4a60-adac-5ae5ec6e91d6",
+            "id": "71a7221e-8bfb-4736-aafe-8afb301f53ab",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sandStonePrefab_19",
+            "scope": "CLASS",
+            "x": 2521,
+            "y": 587
+        },
+        {
+            "prefabId": "ac9f6070-30a8-4bc7-9857-b21c357d5cd7",
+            "id": "8fbb56ef-c7ae-476b-aabf-1e1f3d2bd057",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "sandStonePrefab_20",
+            "scope": "CLASS",
+            "x": 2482,
+            "y": 638
         }
     ],
     "plainObjects": [

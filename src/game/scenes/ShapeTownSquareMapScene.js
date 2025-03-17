@@ -219,7 +219,7 @@ export default class ShapeTownSquareMapScene extends Phaser.Scene {
 		const barracks_Barricade_2 = shapetownSquare.createLayer("Barracks/Barricade1", ["Barricade_V01", "BarricadeSpikes_V02", "BarricadeSpikes_V03", "BarricadeSpikes_V01"], 0, 0);
 
 		// playerPrefab
-		const playerPrefab = new PlayerPrefab(this, 1630, 1988);
+		const playerPrefab = new PlayerPrefab(this, 433, 1541);
 		this.add.existing(playerPrefab);
 
 		// squareFountanPrefab

@@ -19,7 +19,7 @@ export default class PlayerPrefab extends Phaser.GameObjects.Container {
         this.selectedTool = null;
 
         this.setDepth(1);
-
+        this.isDialogActive = false;
         // skin
         const skin = scene.add.sprite(14, 27, "PlayerWalking_V01", 0);
         skin.scaleX = 1.5;
@@ -80,7 +80,7 @@ export default class PlayerPrefab extends Phaser.GameObjects.Container {
         const cam = scene.cameras.main;
 
         cam.startFollow(this, true, 0.1, 0.1);
-        cam.setZoom(1);
+        cam.setZoom(2);
         cam.fadeIn(1000);
 
         this.player = this;
@@ -119,7 +119,7 @@ export default class PlayerPrefab extends Phaser.GameObjects.Container {
     player;
 
     lastDirection = 'down';
-    moveSpeed = 500;
+    moveSpeed = 120;
 
     prefabCreateCycle() {
         this.loadCustomization();
@@ -138,8 +138,14 @@ export default class PlayerPrefab extends Phaser.GameObjects.Container {
     }
 
     playerMovement() {
-        if (this.isUsingTool) return;
-        
+        if (this.isUsingTool || this.isDialogActive === true) {
+            this.player.body.velocity.x = 0;
+            this.player.body.velocity.y = 0;
+            
+            this.moveInDirection(`idle${this.capitalizeFirstLetter(this.lastDirection)}`);
+            return;
+        }
+
         let input = this.scene.input;
 
         const upKey = input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.W);
