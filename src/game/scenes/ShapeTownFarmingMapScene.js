@@ -25,12 +25,18 @@ import DeadTree2 from "../prefabs/Trees/DeadTree2";
 import DeadTree1 from "../prefabs/Trees/DeadTree1";
 /* START-USER-IMPORTS */
 import questSystem from "../../components/QuestSystem";
-import { extendSceneWithQuests } from "../../components/QuestSystem"; 
+import { extendSceneWithQuests } from "../../components/QuestSystem";
 import { extendHarvestPrefab } from "../../components/QuestSystem";
 import { extendJackNpc } from "../../components/QuestSystem";
 import initInventoryBridge from "../../components/phaser-react-bridge";
 import { EventBus } from '../../game/EventBus';
 import HarvestPrefab from "../prefabs/objects/HarvestPrefab";
+import {
+	checkFirstHarvestAchievement,
+	checkGoodInvitationAchievement,
+	checkMasterOfTheFieldAchievement,
+	checkTasteOfGoldAchievement
+} from "../utility"
 /* END-USER-IMPORTS */
 
 export default class ShapeTownFarmingMapScene extends Phaser.Scene {
@@ -76,7 +82,7 @@ export default class ShapeTownFarmingMapScene extends Phaser.Scene {
 		const bG_Grass_1 = shapetownFarmingMap.createLayer("BG/Grass", ["GroundTileset_V02"], 0, 0);
 
 		// bG_Cliff_1
-		const bG_Cliff_1 = shapetownFarmingMap.createLayer("BG/Cliff", ["GroundTileset_V02","RockOnGrass_V02"], 0, 0);
+		const bG_Cliff_1 = shapetownFarmingMap.createLayer("BG/Cliff", ["GroundTileset_V02", "RockOnGrass_V02"], 0, 0);
 
 		// bG_tall_grass_1
 		const bG_tall_grass_1 = shapetownFarmingMap.createLayer("BG/tall grass", ["GroundTileset_V02"], 0, 0);
@@ -88,7 +94,7 @@ export default class ShapeTownFarmingMapScene extends Phaser.Scene {
 		const bG_ramp_1 = shapetownFarmingMap.createLayer("BG/ramp", [], 0, 0);
 
 		// lake_lake_1
-		const lake_lake_1 = shapetownFarmingMap.createLayer("Lake/lake", ["LakeBorderAni","LakeBorderCornerAni","Fishes_3_32x32"], 0, 0);
+		const lake_lake_1 = shapetownFarmingMap.createLayer("Lake/lake", ["LakeBorderAni", "LakeBorderCornerAni", "Fishes_3_32x32"], 0, 0);
 
 		// tree_border_Fence_1
 		const tree_border_Fence_1 = shapetownFarmingMap.createLayer("tree border/Fence", ["RoadStone"], 0, 0);
@@ -642,7 +648,7 @@ export default class ShapeTownFarmingMapScene extends Phaser.Scene {
 
 					const harvestTile = new HarvestPrefab(this, worldX, worldY);
 					this.add.existing(harvestTile);
-					harvestTile.state = "GROUND"; 
+					harvestTile.state = "GROUND";
 					harvestTile.setupBasedOnState();
 					harvestTile.setDepth(5);
 					if (!this.harvestTiles) {
@@ -653,100 +659,98 @@ export default class ShapeTownFarmingMapScene extends Phaser.Scene {
 			}
 		}
 	}
-initInventorySystem() {
-	if (!this.newItemHudPrefab) return;
+	initInventorySystem() {
+		if (!this.newItemHudPrefab) return;
 
-	this.newItemHudPrefab.visible = true;
+		this.newItemHudPrefab.visible = true;
 
-	const inventoryBridge = initInventoryBridge(this.newItemHudPrefab, this.reactEvent);
+		const inventoryBridge = initInventoryBridge(this.newItemHudPrefab, this.reactEvent);
 
-	this.inventoryBridge = inventoryBridge;
+		this.inventoryBridge = inventoryBridge;
 
-	this.time.delayedCall(200, () => {
-	  import('../../components/GlobalInvetoryManager').then(({ globalInventory }) => {
-		if (globalInventory.quickItems.every(item => item === null) && 
-			globalInventory.mainItems.every(item => item === null)) {
-				this.setupStartingItems();
+		this.time.delayedCall(200, () => {
+			import('../../components/GlobalInvetoryManager').then(({ globalInventory }) => {
+				if (globalInventory.quickItems.every(item => item === null) &&
+					globalInventory.mainItems.every(item => item === null)) {
+					this.setupStartingItems();
 
-		  		if (this.newItemHudPrefab.updateGlobalInventory) {
-					this.newItemHudPrefab.updateGlobalInventory();
-		  		}
-			}
-			if (this.inventoryBridge) {
-			  this.inventoryBridge.fixSelection();
-			}
-
-			this.reactEvent.emit('scene-switched', this);
-	  	});
-	});
-	this.events.on('shutdown', this.onSceneShutdown, this);
-	this.events.on('sleep', this.onSceneShutdown, this);
-  }
-
-  onSceneShutdown() {
-	if (this.newItemHudPrefab && this.newItemHudPrefab.updateGlobalInventory) {
-	  this.newItemHudPrefab.updateGlobalInventory();
-	}
-
-	if (this.inventoryBridge) {
-	  this.inventoryBridge.update();
-	}
-  }
-
-  setupStartingItems() {
-	if (!this.newItemHudPrefab) return;
-
-	this.newItemHudPrefab.visible = true;
-	if (this.questBookPrefab) this.questBookPrefab.visible = true;
-
-	if (this.newItemHudPrefab.itemBoxs) {
-	  	this.newItemHudPrefab.itemBoxs.forEach((box, index) => {
-			if (!box.input || !box.input.enabled) {
-		  		box.setInteractive({ useHandCursor: true });
-		  		box.on('pointerdown', () => {
-					if 	(box.frame.name === 0) {
-			  			this.newItemHudPrefab.itemBoxs.forEach((otherBox) => {
-							if (otherBox !== box) {
-				  				otherBox.setTexture("HudItemSlot", 0);
-							}
-			  			});
-			  			box.setTexture("HudItemSlot", 1);
-			  			this.newItemHudPrefab.selectedItem = this.newItemHudPrefab.itemData[index];
-			  			this.newItemHudPrefab.activeIndex = index;
-			  			if (this.reactEvent) {
-							this.reactEvent.emit('inventory-slot-selected', { 
-				 				index, 
-				  				item: this.newItemHudPrefab.itemData[index] 
-							});
-			  			}
+					if (this.newItemHudPrefab.updateGlobalInventory) {
+						this.newItemHudPrefab.updateGlobalInventory();
 					}
-		  		}, this);
-			}
-	  	});
+				}
+				if (this.inventoryBridge) {
+					this.inventoryBridge.fixSelection();
+				}
+
+				this.reactEvent.emit('scene-switched', this);
+			});
+		});
+		this.events.on('shutdown', this.onSceneShutdown, this);
+		this.events.on('sleep', this.onSceneShutdown, this);
 	}
 
-	if (this.newItemHudPrefab.activeItemSlots && this.newItemHudPrefab.activeItemSlots[0]) {
-	  	this.newItemHudPrefab.activeItemSlots[0].visible = true;
-	  	this.newItemHudPrefab.activeIndex = 0;
-	  	this.newItemHudPrefab.selectedItem = this.newItemHudPrefab.itemData[0];
+	onSceneShutdown() {
+		if (this.newItemHudPrefab && this.newItemHudPrefab.updateGlobalInventory) {
+			this.newItemHudPrefab.updateGlobalInventory();
+		}
+
+		if (this.inventoryBridge) {
+			this.inventoryBridge.update();
+		}
 	}
-  }
+
+	setupStartingItems() {
+		if (!this.newItemHudPrefab) return;
+
+		this.newItemHudPrefab.visible = true;
+		if (this.questBookPrefab) this.questBookPrefab.visible = true;
+
+		if (this.newItemHudPrefab.itemBoxs) {
+			this.newItemHudPrefab.itemBoxs.forEach((box, index) => {
+				if (!box.input || !box.input.enabled) {
+					box.setInteractive({ useHandCursor: true });
+					box.on('pointerdown', () => {
+						if (box.frame.name === 0) {
+							this.newItemHudPrefab.itemBoxs.forEach((otherBox) => {
+								if (otherBox !== box) {
+									otherBox.setTexture("HudItemSlot", 0);
+								}
+							});
+							box.setTexture("HudItemSlot", 1);
+							this.newItemHudPrefab.selectedItem = this.newItemHudPrefab.itemData[index];
+							this.newItemHudPrefab.activeIndex = index;
+							if (this.reactEvent) {
+								this.reactEvent.emit('inventory-slot-selected', {
+									index,
+									item: this.newItemHudPrefab.itemData[index]
+								});
+							}
+						}
+					}, this);
+				}
+			});
+		}
+
+		if (this.newItemHudPrefab.activeItemSlots && this.newItemHudPrefab.activeItemSlots[0]) {
+			this.newItemHudPrefab.activeItemSlots[0].visible = true;
+			this.newItemHudPrefab.activeIndex = 0;
+			this.newItemHudPrefab.selectedItem = this.newItemHudPrefab.itemData[0];
+		}
+	}
 
 	setupLayerDepths() {
 		this.profilePrefab?.setDepth(90);
 		this.openInventory?.setDepth(90);
-	    this.questBookPrefab?.setDepth(90);
-	    this.newItemHudPrefab?.setDepth(90);
-	    this.messagePrefab?.setDepth(90);
-	    this.alertPrefab?.setDepth(90);
+		this.questBookPrefab?.setDepth(90);
+		this.newItemHudPrefab?.setDepth(90);
+		this.messagePrefab?.setDepth(90);
+		this.alertPrefab?.setDepth(90);
 		this.openMapPrefab?.setDepth(90);
 		this.optionsListPrefab?.setDepth(90);
 		this.playerPrefab?.setDepth(90);
 	}
+
 	create() {
-
-
-		var counter = 0;
 		this.editorCreate();
 		window.questBookPrefab = null;
 		this.cameras.main.setBounds(0, 0, 2550, 1920);
@@ -758,11 +762,11 @@ initInventorySystem() {
 		}
 		this.events.on('create', () => {
 			if (this.newItemHudPrefab) {
-			  import('../../components/GlobalInvetoryManager').then(({ globalInventory }) => {
-				if (globalInventory.syncInventoryToScene) {
-				  	globalInventory.syncInventoryToScene(this);
-				}
-			  });
+				import('../../components/GlobalInvetoryManager').then(({ globalInventory }) => {
+					if (globalInventory.syncInventoryToScene) {
+						globalInventory.syncInventoryToScene(this);
+					}
+				});
 			}
 
 			this.cameras.main.fadeIn(500, 0, 0, 0);
@@ -823,21 +827,21 @@ initInventorySystem() {
 			firstFishAchievement: false
 		};
 		if (this.minimapPrefab && this.playerPrefab) {
-            this.minimapPrefab.setPlayer(this.playerPrefab);
-            this.minimapPrefab.visible = false;
-            if (this.minimapPrefab.minimapCamera) {
-                this.minimapPrefab.minimapCamera.visible = false;
-            }
-        }
-	  	this.oldManJackNpcPrefab.player = this.playerPrefab;
-	  	this.oldManJackNpcPrefab.msgPrefab = this.messagePrefab;
-	  	this.oldManJackNpcPrefab.alertPrefab = this.alertPrefab;
-	  	this.oldManJackNpcPrefab.itemHud = this.newItemHudPrefab;
-	  	this.oldManJackNpcPrefab.profilePrefab = null;
+			this.minimapPrefab.setPlayer(this.playerPrefab);
+			this.minimapPrefab.visible = false;
+			if (this.minimapPrefab.minimapCamera) {
+				this.minimapPrefab.minimapCamera.visible = false;
+			}
+		}
+		this.oldManJackNpcPrefab.player = this.playerPrefab;
+		this.oldManJackNpcPrefab.msgPrefab = this.messagePrefab;
+		this.oldManJackNpcPrefab.alertPrefab = this.alertPrefab;
+		this.oldManJackNpcPrefab.itemHud = this.newItemHudPrefab;
+		this.oldManJackNpcPrefab.profilePrefab = null;
 
-	  	this.newItemHudPrefab.visible = true;
+		this.newItemHudPrefab.visible = true;
 
-	  	this.shapeFarmingHousePrefab.setupCollision(this.playerPrefab);
+		this.shapeFarmingHousePrefab.setupCollision(this.playerPrefab);
 		this.farmingTree1.setupCollision(this.playerPrefab)
 		this.farmingTree2.setupCollision(this.playerPrefab)
 		this.deadTree_1.setupCollision(this.playerPrefab)
@@ -848,187 +852,207 @@ initInventorySystem() {
 		this.deadTree_2.setupCollision(this.playerPrefab)
 
 
-	  	this.physics.add.collider(this.playerPrefab, this.lake_lake_1);
-	  	this.lake_lake_1.setCollisionBetween(0, 10000);
-	  	// this.lake_lake_1.renderDebug(this.add.graphics());
+		this.physics.add.collider(this.playerPrefab, this.lake_lake_1);
+		this.lake_lake_1.setCollisionBetween(0, 10000);
+		// this.lake_lake_1.renderDebug(this.add.graphics());
 
-	  	this.physics.add.collider(this.playerPrefab, this.tree_border);
-	  	this.tree_border.setCollisionBetween(0, 10000);
-	  	// this.tree_border.renderDebug(this.add.graphics());
+		this.physics.add.collider(this.playerPrefab, this.tree_border);
+		this.tree_border.setCollisionBetween(0, 10000);
+		// this.tree_border.renderDebug(this.add.graphics());
 
-	  	this.physics.add.collider(this.playerPrefab, this.tree_border_1);
-	  	this.tree_border_1.setCollisionBetween(0, 10000);
-	  	// this.tree_border_1.renderDebug(this.add.graphics());
+		this.physics.add.collider(this.playerPrefab, this.tree_border_1);
+		this.tree_border_1.setCollisionBetween(0, 10000);
+		// this.tree_border_1.renderDebug(this.add.graphics());
 
-	  	this.physics.add.collider(this.playerPrefab, this.tree_border_2);
-	  	this.tree_border_2.setCollisionBetween(0, 10000);
-	  	// this.tree_border_2.renderDebug(this.add.graphics());
+		this.physics.add.collider(this.playerPrefab, this.tree_border_2);
+		this.tree_border_2.setCollisionBetween(0, 10000);
+		// this.tree_border_2.renderDebug(this.add.graphics());
 
-	  	this.physics.add.collider(this.playerPrefab, this.tree_border_3);
-	  	this.tree_border_3.setCollisionBetween(0, 10000);
-	  	// this.tree_border_3.renderDebug(this.add.graphics());
+		this.physics.add.collider(this.playerPrefab, this.tree_border_3);
+		this.tree_border_3.setCollisionBetween(0, 10000);
+		// this.tree_border_3.renderDebug(this.add.graphics());
 
-	  	this.physics.add.collider(this.playerPrefab, this.tree_border_4);
-	  	this.tree_border_4.setCollisionBetween(0, 10000);
-	  	// this.tree_border_4.renderDebug(this.add.graphics());
+		this.physics.add.collider(this.playerPrefab, this.tree_border_4);
+		this.tree_border_4.setCollisionBetween(0, 10000);
+		// this.tree_border_4.renderDebug(this.add.graphics());
 
-	  	this.physics.add.collider(this.playerPrefab, this.tree_border_5);
-	  	this.tree_border_5.setCollisionBetween(0, 10000);
-	  	// this.tree_border_5.renderDebug(this.add.graphics());
+		this.physics.add.collider(this.playerPrefab, this.tree_border_5);
+		this.tree_border_5.setCollisionBetween(0, 10000);
+		// this.tree_border_5.renderDebug(this.add.graphics());
 
-	  	this.physics.add.collider(this.playerPrefab, this.tree_border_6);
-	  	this.tree_border_6.setCollisionBetween(0, 10000);
-	  	// this.tree_border_6.renderDebug(this.add.graphics());
+		this.physics.add.collider(this.playerPrefab, this.tree_border_6);
+		this.tree_border_6.setCollisionBetween(0, 10000);
+		// this.tree_border_6.renderDebug(this.add.graphics());
 
-	  	this.physics.add.collider(this.playerPrefab, this.bG_Cliff_1);
-	  	this.bG_Cliff_1.setCollisionBetween(0, 10000);
-	  	// this.bG_Cliff_1.renderDebug(this.add.graphics());
+		this.physics.add.collider(this.playerPrefab, this.bG_Cliff_1);
+		this.bG_Cliff_1.setCollisionBetween(0, 10000);
+		// this.bG_Cliff_1.renderDebug(this.add.graphics());
 
-	  	this.physics.add.collider(this.playerPrefab, this.farm_Fence_1);
-	  	this.farm_Fence_1.setCollisionBetween(0, 10000);
-	  	// this.farm_Fence_1.renderDebug(this.add.graphics());
+		this.physics.add.collider(this.playerPrefab, this.farm_Fence_1);
+		this.farm_Fence_1.setCollisionBetween(0, 10000);
+		// this.farm_Fence_1.renderDebug(this.add.graphics());
 
 		this.physics.add.collider(this.playerPrefab, this.tree_border_Fence_1);
-	  	this.tree_border_Fence_1.setCollisionBetween(0, 10000);
-	  	// this.tree_border_Fence_1.renderDebug(this.add.graphics());
+		this.tree_border_Fence_1.setCollisionBetween(0, 10000);
+		// this.tree_border_Fence_1.renderDebug(this.add.graphics());
 
 		this.physics.add.overlap(this.sceneTile, this.playerPrefab, () => {
-		    // Access questSystem from this.game instead of this.scene
-		    if (this.game && this.game.questSystem && this.game.questSystem.isQuestCompleted("001")) {
-		        if (this.newItemHudPrefab && this.newItemHudPrefab.updateGlobalInventory) {
-		            this.newItemHudPrefab.updateGlobalInventory();
-		        }
+			// Access questSystem from this.game instead of this.scene
+			if (this.game && this.game.questSystem && this.game.questSystem.isQuestCompleted("001")) {
+				if (this.newItemHudPrefab && this.newItemHudPrefab.updateGlobalInventory) {
+					this.newItemHudPrefab.updateGlobalInventory();
+				}
 
-		        const playerX = this.playerPrefab.x;
+				const playerX = this.playerPrefab.x;
 
-		        this.scene.switch("ShapeTownSquareMapScene");
-		        const targetScene = this.scene.get("ShapeTownSquareMapScene");
-		        if (targetScene && targetScene.playerPrefab) {
-		            targetScene.playerPrefab.x = 304;
-		        }
+				this.scene.switch("ShapeTownSquareMapScene");
+				const targetScene = this.scene.get("ShapeTownSquareMapScene");
+				if (targetScene && targetScene.playerPrefab) {
+					targetScene.playerPrefab.x = 304;
+				}
 
-		        this.cameras.main.fadeIn(2000, 0, 0, 0);
-		    } else {
-		        this.playerPrefab.x -= 200;
-		        this.alertPrefab.alert("First Quest is not over, please finish your quest and try again");
-		        counter++;
-		    }
+				this.cameras.main.fadeIn(2000, 0, 0, 0);
+			} else {
+				this.playerPrefab.x -= 200;
+				this.alertPrefab.alert("First Quest is not over, please finish your quest and try again");
+				counter++;
+			}
 		});
 		this.initInventorySystem();
 
-	const waterTile = this.lake_lake_1.getTilesWithin();
-	    waterTile.forEach(tile => {
-	    if (tile && tile.index === 1909) {
-	    	const sprite = this.add.sprite(tile.pixelX + tile.width/2, tile.pixelY + tile.height/2, 'LakeBorderAni');
-	    	sprite.play('FarmingMapWaterAniRightUp');
-	    } 
-		if (tile && tile.index === 1910) {
-	    	const sprite = this.add.sprite(tile.pixelX + tile.width/2, tile.pixelY + tile.height/2, 'LakeBorderAni');
-	    	sprite.play('FarmingMapWaterAniUp');
-	    } 
-		if (tile && tile.index === 1894 ) {
-	    	const sprite = this.add.sprite(tile.pixelX + tile.width/2, tile.pixelY + tile.height/2, 'LakeBorderAni');
-	    	sprite.play('FarmingMapWaterAniLeftUp');
-		}
-		if (tile && tile.index === 1935) {
-	    	const sprite = this.add.sprite(tile.pixelX + tile.width/2, tile.pixelY + tile.height/2, 'LakeBorderAni');
-	    	sprite.play('FarmingMapWaterAniRight');
-	    } 
-		if (tile && tile.index === 1911) {
-	    	const sprite = this.add.sprite(tile.pixelX + tile.width/2, tile.pixelY + tile.height/2, 'LakeBorderAni');
-	    	sprite.play('FarmingMapWaterAniRUp');
-	    } 
-		if (tile && tile.index === 1893) {
-	    	const sprite = this.add.sprite(tile.pixelX + tile.width/2, tile.pixelY + tile.height/2, 'LakeBorderAni');
-	    	sprite.play('FarmingMapWaterAniRDown');
-	    }
-	});
+		const waterTile = this.lake_lake_1.getTilesWithin();
+		waterTile.forEach(tile => {
+			if (tile && tile.index === 1909) {
+				const sprite = this.add.sprite(tile.pixelX + tile.width / 2, tile.pixelY + tile.height / 2, 'LakeBorderAni');
+				sprite.play('FarmingMapWaterAniRightUp');
+			}
+			if (tile && tile.index === 1910) {
+				const sprite = this.add.sprite(tile.pixelX + tile.width / 2, tile.pixelY + tile.height / 2, 'LakeBorderAni');
+				sprite.play('FarmingMapWaterAniUp');
+			}
+			if (tile && tile.index === 1894) {
+				const sprite = this.add.sprite(tile.pixelX + tile.width / 2, tile.pixelY + tile.height / 2, 'LakeBorderAni');
+				sprite.play('FarmingMapWaterAniLeftUp');
+			}
+			if (tile && tile.index === 1935) {
+				const sprite = this.add.sprite(tile.pixelX + tile.width / 2, tile.pixelY + tile.height / 2, 'LakeBorderAni');
+				sprite.play('FarmingMapWaterAniRight');
+			}
+			if (tile && tile.index === 1911) {
+				const sprite = this.add.sprite(tile.pixelX + tile.width / 2, tile.pixelY + tile.height / 2, 'LakeBorderAni');
+				sprite.play('FarmingMapWaterAniRUp');
+			}
+			if (tile && tile.index === 1893) {
+				const sprite = this.add.sprite(tile.pixelX + tile.width / 2, tile.pixelY + tile.height / 2, 'LakeBorderAni');
+				sprite.play('FarmingMapWaterAniRDown');
+			}
+		});
 
+		this.physics.add.existing(this.stonePrefab, true);
+		this.physics.add.existing(this.stonePrefab_1, true);
+		this.physics.add.existing(this.stonePrefab_3, true);
+		this.physics.add.existing(this.stonePrefab_4, true);
+		this.physics.add.existing(this.stonePrefab_5, true);
+		this.physics.add.existing(this.stonePrefab_6, true);
+		this.physics.add.existing(this.stonePrefab_7, true);
+		this.physics.add.existing(this.stonePrefab_8, true);
+		this.physics.add.existing(this.stonePrefab_9, true);
+		this.physics.add.existing(this.stonePrefab_10, true);
 
+		this.physics.add.collider(this.playerPrefab, this.stonePrefab);
+		this.physics.add.collider(this.playerPrefab, this.stonePrefab_1);
+		this.physics.add.collider(this.playerPrefab, this.stonePrefab_3);
+		this.physics.add.collider(this.playerPrefab, this.stonePrefab_4);
+		this.physics.add.collider(this.playerPrefab, this.stonePrefab_5);
+		this.physics.add.collider(this.playerPrefab, this.stonePrefab_6);
+		this.physics.add.collider(this.playerPrefab, this.stonePrefab_7);
+		this.physics.add.collider(this.playerPrefab, this.stonePrefab_8);
+		this.physics.add.collider(this.playerPrefab, this.stonePrefab_9);
+		this.physics.add.collider(this.playerPrefab, this.stonePrefab_10);
 
-      this.physics.add.existing(this.stonePrefab, true);
-      this.physics.add.existing(this.stonePrefab_1, true);	
-      this.physics.add.existing(this.stonePrefab_3, true);
-      this.physics.add.existing(this.stonePrefab_4, true);
-	  this.physics.add.existing(this.stonePrefab_5, true);
-      this.physics.add.existing(this.stonePrefab_6, true);	
-      this.physics.add.existing(this.stonePrefab_7, true);
-      this.physics.add.existing(this.stonePrefab_8, true);
-	  this.physics.add.existing(this.stonePrefab_9, true);
-      this.physics.add.existing(this.stonePrefab_10, true);	
-
-      this.physics.add.collider(this.playerPrefab, this.stonePrefab);
-      this.physics.add.collider(this.playerPrefab, this.stonePrefab_1);
-      this.physics.add.collider(this.playerPrefab, this.stonePrefab_3);
-      this.physics.add.collider(this.playerPrefab, this.stonePrefab_4);
-	  this.physics.add.collider(this.playerPrefab, this.stonePrefab_5);
-      this.physics.add.collider(this.playerPrefab, this.stonePrefab_6);
-	  this.physics.add.collider(this.playerPrefab, this.stonePrefab_7);
-      this.physics.add.collider(this.playerPrefab, this.stonePrefab_8);
-	  this.physics.add.collider(this.playerPrefab, this.stonePrefab_9);
-      this.physics.add.collider(this.playerPrefab, this.stonePrefab_10);
-
-
+		this.setupSceneAchievementNftsData()
 	}
+
 	setupAllTreesCollision() {
-    // Regular trees
-    const farmingTrees = [
-        this.farmingTree1,
-        this.farmingTree2,
-        this.farmingTree_1,
-        this.farmingTree,
-        this.farmingTree_2,
-        this.farmingTree_3,
-        this.farmingTree_5,
-        this.farmingTree_6, 
-        this.farmingTree_7,
-        this.farmingTree_8,
-        this.farmingTree_4,
-        this.farmingTree_9,
-        this.farmingTree_10,
-		this.farmingTree_12,
-		this.farmingTree_11,
-		this.farmingTree_13,
-		this.farmingTree_14,
-		this.farmingTree_15,
-		this.farmingTree_16,
-		this.farmingTree_17,
-		this.farmingTree_18
-    ];
+		// Regular trees
+		const farmingTrees = [
+			this.farmingTree1,
+			this.farmingTree2,
+			this.farmingTree_1,
+			this.farmingTree,
+			this.farmingTree_2,
+			this.farmingTree_3,
+			this.farmingTree_5,
+			this.farmingTree_6,
+			this.farmingTree_7,
+			this.farmingTree_8,
+			this.farmingTree_4,
+			this.farmingTree_9,
+			this.farmingTree_10,
+			this.farmingTree_12,
+			this.farmingTree_11,
+			this.farmingTree_13,
+			this.farmingTree_14,
+			this.farmingTree_15,
+			this.farmingTree_16,
+			this.farmingTree_17,
+			this.farmingTree_18
+		];
 
-    farmingTrees.forEach(tree => {
-        if (tree && typeof tree.setupCollision === 'function') {
-            tree.setupCollision(this.playerPrefab);
-        }
-    });
+		farmingTrees.forEach(tree => {
+			if (tree && typeof tree.setupCollision === 'function') {
+				tree.setupCollision(this.playerPrefab);
+			}
+		});
 
-    if (this.waterwellPrefab && typeof this.waterwellPrefab.setupCollision === 'function') {
-        this.waterwellPrefab.setupCollision(this.playerPrefab);
-    }
-}
+		if (this.waterwellPrefab && typeof this.waterwellPrefab.setupCollision === 'function') {
+			this.waterwellPrefab.setupCollision(this.playerPrefab);
+		}
+	}
 
-setupAllStonesCollision() {
-    const stones = [
-        this.stonePrefab,
-        this.stonePrefab_1,
-        this.stonePrefab_2,
-        this.stonePrefab_3,
-        this.stonePrefab_4,
-        this.stonePrefab_5,
-        this.stonePrefab_6,
-        this.stonePrefab_7,
-        this.stonePrefab_8,
-        this.stonePrefab_9,
-        this.stonePrefab_10
-    ];
+	setupAllStonesCollision() {
+		const stones = [
+			this.stonePrefab,
+			this.stonePrefab_1,
+			this.stonePrefab_2,
+			this.stonePrefab_3,
+			this.stonePrefab_4,
+			this.stonePrefab_5,
+			this.stonePrefab_6,
+			this.stonePrefab_7,
+			this.stonePrefab_8,
+			this.stonePrefab_9,
+			this.stonePrefab_10
+		];
 
-    stones.forEach(stone => {
-        if (stone) {
-            this.physics.add.existing(stone, true);
-            this.physics.add.collider(this.playerPrefab, stone);
-        }
-    });
-}
+		stones.forEach(stone => {
+			if (stone) {
+				this.physics.add.existing(stone, true);
+				this.physics.add.collider(this.playerPrefab, stone);
+			}
+		});
+	}
+
+	async setupSceneAchievementNftsData() {
+		this.achievements.firstHarvestAchievement = await checkFirstHarvestAchievement();
+		this.achievements.tasteOfGoldAchievement = await checkTasteOfGoldAchievement();
+		this.achievements.goodInvitationAchievement = await checkGoodInvitationAchievement();
+		this.achievements.masterOfTheFieldAchievement = await checkMasterOfTheFieldAchievement();
+
+		if (this.achievements.firstHarvestAchievement) {
+			this.questSystem.completeQuest("001")
+		}
+
+		if (this.achievements.tasteOfGoldAchievement) {
+			this.questSystem.completeQuest("002")
+		}
+
+		if (this.achievements.goodInvitationAchievement) {
+			this.questSystem.completeQuest("003")
+		}
+
+		console.log(this.achievements);
+	}
 	/* END-USER-CODE */
 }
 

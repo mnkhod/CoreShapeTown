@@ -7,6 +7,9 @@ import {
     MERCHANT_TYPES,
     getMerchantInventory,
 } from "../../../components/merchant-manager";
+
+import { mintTasteOfGoldAchievement } from "../../utility";
+
 /* END-USER-IMPORTS */
 
 export default class MerchantPrefab extends Phaser.GameObjects.Container {
@@ -197,7 +200,7 @@ export default class MerchantPrefab extends Phaser.GameObjects.Container {
                                 },
                                 {
                                     text: "I want to sell items",
-                                    onSelect: () => {
+                                    onSelect: async () => {
                                         console.log(
                                             "Emitting show-shop-sell-modal event"
                                         );
@@ -207,6 +210,16 @@ export default class MerchantPrefab extends Phaser.GameObjects.Container {
                                                 this
                                             );
                                         }
+
+                                        await mintTasteOfGoldAchievement({
+                                            onSuccess: () => {
+                                                this.scene.alertPrefab.alert("Taste Of Gold Achievement");
+                                                this.scene.achievements.tasteOfGoldAchievement = true;
+                                            },
+                                            onError: () => {
+                                                this.scene.alertPrefab.alert("Minting Error Happened");
+                                            }
+                                        })
                                     },
                                     nextDialogue: 1,
                                 },

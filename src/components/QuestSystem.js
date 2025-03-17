@@ -1,4 +1,5 @@
 import { EventEmitter } from "events";
+import { mintGoodInvitationAchievement } from "../game/utility";
 
 class QuestSystem extends EventEmitter {
     constructor() {
@@ -20,6 +21,7 @@ class QuestSystem extends EventEmitter {
 
         this.initializeQuestData();
     }
+
     resetDailyQuest(questId) {
         const quest = this.quests[questId];
         if (!quest) return;
@@ -303,7 +305,6 @@ class QuestSystem extends EventEmitter {
         };
 
         this.activeQuests.add("001");
-        this.completeQuest("001")
     }
 
     getQuestProgress() {
@@ -484,7 +485,7 @@ class QuestSystem extends EventEmitter {
         this.scenes = scenes;
     }
 
-    handleEvent(eventName, params) {
+    async handleEvent(eventName, params) {
         console.log("Quest event received:", eventName, params);
 
         switch (eventName) {
@@ -669,9 +670,15 @@ class QuestSystem extends EventEmitter {
                         );
 
                         if (params.scene && params.scene.alertPrefab) {
-                            params.scene.alertPrefab.alert(
-                                "Quest Complete: Good Invitation"
-                            );
+                            await mintGoodInvitationAchievement({
+                                onSuccess: () => {
+                                    params.scene.alertPrefab.alert("Quest Complete: Good Invitation");
+                                    params.scene.achievements.goodInvitationAchievement = true;
+                                },
+                                onError: () => {
+                                    this.scene.alertPrefab.alert("Minting Error Happened");
+                                }
+                            })
                         } else if (
                             params.npc &&
                             params.npc.scene &&

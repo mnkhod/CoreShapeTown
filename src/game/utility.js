@@ -8,16 +8,14 @@ export async function fetchMetamaskAccount() {
 }
 
 export async function getReadAchievementNftContract() {
-	let contractAddress = "0x23d6e7fe6dc435cdDC32e5aBBd3d6bE7f807bAbD"
-	// let contractAddress = "0x6bc9Da82cB85D6D9e34EF7b8B2F930a8A83F5FB2"
+	let contractAddress = "0x3A711d5E7e4d69eBef1B7e1b3715f463619A254c"
 	let contractAbi = [
 		"function balanceOf(address,uint256) view returns (uint256)",
 		"function mint(address,uint256,uint256,bytes)",
 		"function uri(uint256) view returns (string)"
 	]
 
-	let provider = new ethers.JsonRpcProvider("https://rpc.open-campus-codex.gelato.digital")
-	// let provider = new ethers.JsonRpcProvider("https://mainnet.shape.network")
+	let provider = new ethers.JsonRpcProvider("https://rpc.test.btcs.network")
 
 	const nftContract = new ethers.Contract(contractAddress, contractAbi, provider);
 
@@ -52,6 +50,18 @@ export async function checkFirstFishAchievement() {
 	return await checkAchievementNFT(2)
 }
 
+export async function checkTasteOfGoldAchievement() {
+	return await checkAchievementNFT(4)
+}
+
+export async function checkGoodInvitationAchievement() {
+	return await checkAchievementNFT(5)
+}
+
+export async function checkMasterOfTheFieldAchievement() {
+	return await checkAchievementNFT(6)
+}
+
 export async function mintFirstHarvestAchievement({ onSuccess, onError }) {
 	let metamaskAccount = await fetchMetamaskAccount()
 	let baseURL = `${import.meta.env.VITE_REST_ENDPOINT}`;
@@ -59,7 +69,61 @@ export async function mintFirstHarvestAchievement({ onSuccess, onError }) {
 	try {
 		let result = await axios({
 			method: 'get',
-			url: `${baseURL}/shape/nft/create/0/${metamaskAccount}`
+			url: `${baseURL}/core/nft/create/0/${metamaskAccount}`
+		})
+		if (result.data.hash) {
+			onSuccess()
+		}
+	} catch (e) {
+		console.log(e);
+		onError()
+	}
+}
+
+export async function mintTasteOfGoldAchievement({ onSuccess, onError }) {
+	let metamaskAccount = await fetchMetamaskAccount()
+	let baseURL = `${import.meta.env.VITE_REST_ENDPOINT}`;
+
+	try {
+		let result = await axios({
+			method: 'get',
+			url: `${baseURL}/core/nft/create/4/${metamaskAccount}`
+		})
+		if (result.data.hash) {
+			onSuccess()
+		}
+	} catch (e) {
+		console.log(e);
+		onError()
+	}
+}
+
+export async function mintGoodInvitationAchievement({ onSuccess, onError }) {
+	let metamaskAccount = await fetchMetamaskAccount()
+	let baseURL = `${import.meta.env.VITE_REST_ENDPOINT}`;
+
+	try {
+		let result = await axios({
+			method: 'get',
+			url: `${baseURL}/core/nft/create/5/${metamaskAccount}`
+		})
+		if (result.data.hash) {
+			onSuccess()
+		}
+	} catch (e) {
+		console.log(e);
+		onError()
+	}
+}
+
+export async function mintMasterOfTheFieldAchievement({ onSuccess, onError }) {
+	let metamaskAccount = await fetchMetamaskAccount()
+	let baseURL = `${import.meta.env.VITE_REST_ENDPOINT}`;
+
+	try {
+		let result = await axios({
+			method: 'get',
+			url: `${baseURL}/core/nft/create/6/${metamaskAccount}`
 		})
 		if (result.data.hash) {
 			onSuccess()
@@ -77,7 +141,7 @@ export async function mintGiftFromNatureAchievement({ onSuccess, onError }) {
 	try {
 		let result = await axios({
 			method: 'get',
-			url: `${baseURL}/shape/nft/create/1/${metamaskAccount}`
+			url: `${baseURL}/core/nft/create/1/${metamaskAccount}`
 		})
 		if (result.data.hash) {
 			onSuccess()
@@ -95,7 +159,7 @@ export async function mintFirstFishAchievement({ onSuccess, onError }) {
 	try {
 		let result = await axios({
 			method: 'get',
-			url: `${baseURL}/shape/nft/create/2/${metamaskAccount}`
+			url: `${baseURL}/core/nft/create/2/${metamaskAccount}`
 		})
 		if (result.data.hash) {
 			onSuccess()

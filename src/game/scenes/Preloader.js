@@ -7,36 +7,35 @@
 
 export default class Preloader extends Phaser.Scene {
 
-	constructor() {
-		super("Preloader");
+    constructor() {
+        super("Preloader");
 
-		/* START-USER-CTR-CODE */
-		// Write your code here.
-		/* END-USER-CTR-CODE */
-	}
+        /* START-USER-CTR-CODE */
+        // Write your code here.
+        /* END-USER-CTR-CODE */
+    }
 
-	/** @returns {void} */
-	editorCreate() {
+    /** @returns {void} */
+    editorCreate() {
 
-		// progressBar
-		const progressBar = this.add.rectangle(512, 384, 468, 32);
-		progressBar.isFilled = true;
-		progressBar.fillColor = 14737632;
-		progressBar.isStroked = true;
+        // progressBar
+        const progressBar = this.add.rectangle(512, 384, 468, 32);
+        progressBar.isFilled = true;
+        progressBar.fillColor = 14737632;
+        progressBar.isStroked = true;
 
-		this.progressBar = progressBar;
+        this.progressBar = progressBar;
 
-		this.events.emit("scene-awake");
-	}
+        this.events.emit("scene-awake");
+    }
 
-	/** @type {Phaser.GameObjects.Rectangle} */
-	progressBar;
+    /** @type {Phaser.GameObjects.Rectangle} */
+    progressBar;
 
-	/* START-USER-CODE */
+    /* START-USER-CODE */
 
-	// Write your code here
-    init ()
-    {
+    // Write your code here
+    init() {
         this.editorCreate();
         this.progressBar.visible = false;
 
@@ -52,21 +51,19 @@ export default class Preloader extends Phaser.Scene {
 
     }
 
-    preload ()
-    {
+    preload() {
         // Use the 'pack' file to load in any assets you need for this scene
         this.load.pack('preload', 'assets/preload-asset-pack.json');
     }
 
-    create ()
-    {
+    create() {
         //  When all the assets have loaded, it's often worth creating global objects here that the rest of the game can use.
         //  For example, you can define global animations here, so we can use them in other scenes.
 
         //  Move to the MainMenu. You could also swap this for a Scene Transition, such as a camera fade.
-        this.scene.start("ShapeTownSquareMapScene");
+        this.scene.start("ShapeTownFarmingMapScene");
     }
-        /* END-USER-CODE */
+    /* END-USER-CODE */
 }
 
 /* END OF COMPILED CODE */
