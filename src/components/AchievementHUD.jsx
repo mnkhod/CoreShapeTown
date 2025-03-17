@@ -13,7 +13,7 @@ const AchievementSlot = ({ achievement }) => {
             onMouseLeave={() => setShowTooltip(false)}
         >
             {/* assets ustgana */}
-            <div className="w-full h-full bg-[url('/hud/achievementSlot.png')] bg-contain bg-no-repeat bg-center">
+            <div className="w-full h-full bg-[url('/assets/hud/achievementSlot.png')] bg-contain bg-no-repeat bg-center">
                 <div className="absolute inset-[20%] flex items-center justify-center">
                     {achievement && (
                         <img
@@ -129,7 +129,7 @@ const AchievementHUD = ({ onClose }) => {
                 {isLoading ? (
                     <div className="w-96 h-96 relative">
                         <img
-                            src="/files/LoadingFrame.png"
+                            src="/assets/files/LoadingFrame.png"
                             alt="Loading frame"
                             className="w-full h-full object-contain"
                         />
@@ -139,13 +139,13 @@ const AchievementHUD = ({ onClose }) => {
                                 <span className="invisible">...</span>
                             </span>
                             <img
-                                src="/files/LoadingIcon.png"
+                                src="assets//files/LoadingIcon.png"
                                 alt="Loading icon"
                                 className="w-20 h-20 animate-spin"
                                 style={{ animationDuration: "1s" }}
                             />
                             <img
-                                src="/TradeIcons/Merchant/IconGold.png"
+                                src="/assets/TradeIcons/Merchant/IconGold.png"
                                 alt="Loading icon"
                                 className="w-8 h-8 absolute mt-12 animate-bounce"
                                 style={{ animationDuration: "1s" }}
@@ -153,14 +153,14 @@ const AchievementHUD = ({ onClose }) => {
                         </div>
                     </div>
                 ) : (
-                    <div className="bg-[url('/hud/achievementDashboard.png')] bg-contain bg-no-repeat pr-16 pl-10 py-10">
+                    <div className="bg-[url('/assets/hud/achievementDashboard.png')] bg-contain bg-no-repeat pr-16 pl-10 py-10">
                         <img
-                            src="assets/files/image%2035.png"
+                            src="/assets/files/image%2035.png"
                             alt="Close"
                             onClick={onClose}
                             className="w-12 h-12 right-0 top-0 absolute cursor-pointer hover:opacity-80"
                         />
-                        <div className="bg-[url('/hud/achievementBackground.png')] bg-contain bg-no-repeat">
+                        <div className="bg-[url('/assets/hud/achievementBackground.png')] bg-contain bg-no-repeat">
                             <div className="px-4 py-2">
                                 <div className="text-xl font-bold text-yellow-900 flex justify-between items-center">
                                     <span>Achievements</span>
