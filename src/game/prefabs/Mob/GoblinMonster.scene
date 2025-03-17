@@ -1,0 +1,33 @@
+{
+    "id": "f9c739bf-7f2e-42e5-b25c-8f419c415c02",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1024,
+        "borderHeight": 768
+    },
+    "displayList": [
+        {
+            "type": "Sprite",
+            "id": "07faed7a-4074-4dd7-9225-9ad676ebd0ee",
+            "label": "sprite_1",
+            "texture": {
+                "key": "GoblinWalking96x96_V01",
+                "frame": 0
+            },
+            "x": 48,
+            "y": 48
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

@@ -1,0 +1,6049 @@
+{
+    "anims": [
+        {
+            "key": "npcHarvestStandingAnim",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "GameNpcs1",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GameNpcs1",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GameNpcs1",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GameNpcs1",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GameNpcs1",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GameNpcs1",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "bookLightingUpAnim",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Book",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Book",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Book",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 3,
+            "skipMissedFrames": true,
+            "repeat": 3,
+            "randomFrame": false
+        },
+        {
+            "key": "NpcBlackSmithRight",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "NpcBlaksmith",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NpcBlaksmith",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NpcBlaksmith",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NpcBlaksmith",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NpcBlaksmith",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "NpcBlackSmithLeft",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "NpcBlaksmith",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NpcBlaksmith",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NpcBlaksmith",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NpcBlaksmith",
+                    "frame": 8,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NpcBlaksmith",
+                    "frame": 9,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "NpcOldManJack",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "NPCOldManJack",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCOldManJack",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCOldManJack",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCOldManJack",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCOldManJack",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCOldManJack",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 4,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "Campfire",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Campfire_32x32",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Campfire_32x32",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Campfire_32x32",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Campfire_32x32",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Campfire_32x32",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Campfire_32x32",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "CampCauldron",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Campfire_2_32x32",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Campfire_2_32x32",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Campfire_2_32x32",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Campfire_2_32x32",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Campfire_2_32x32",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Campfire_2_32x32",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "Seaborder",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 32,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 36,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 40,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 44,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 48,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 52,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 56,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 60,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 64,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 68,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 72,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 76,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 80,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 84,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 88,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 92,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "AngelStatue",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "DecorationAngelStatue",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "DecorationAngelStatue",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "DecorationAngelStatue",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "DecorationAngelStatue",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "SeaAnimation",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 33,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 34,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 37,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 38,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 41,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 42,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 45,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 46,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 49,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 50,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 53,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 54,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 57,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterAni_V01",
+                    "frame": 58,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "BigShip",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Ship_V01-Sheet",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Ship_V01-Sheet",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Ship_V01-Sheet",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Ship_V01-Sheet",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Ship_V01-Sheet",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Ship_V01-Sheet",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Ship_V01-Sheet",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Ship_V01-Sheet",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "FloatingCliff",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "LakeFloatingRock_V03",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V03",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V03",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V03",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V03",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V03",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V03",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V03",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "fishingShip",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "FishingBoat_V01R",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "FishingBoat_V01R",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "FishingBoat_V01R",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "FishingBoat_V01R",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "FishingBoat_V01R",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "FishingBoat_V01R",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "FishingBoat_V01R",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "FishingBoat_V01R",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "playerpickaxeLeft",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 24,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 25,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 26,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 27,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 28,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 29,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 30,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "playerpickaxeDown",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "playerpickaxeRight",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 16,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 17,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 18,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 19,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 20,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 21,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 22,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 23,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "playerpickaxeUp",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 8,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 9,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 10,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 11,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 12,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 13,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 14,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerAniFarming_V01",
+                    "frame": 15,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "merchantAnimation",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "NPCShopStandMaerchant",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCShopStandMaerchant",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCShopStandMaerchant",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCShopStandMaerchant",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCShopStandMaerchant",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCShopStandMaerchant",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "BeforeQuest",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "NPCDialoguePopUpSheet",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCDialoguePopUpSheet",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCDialoguePopUpSheet",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCDialoguePopUpSheet",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCDialoguePopUpSheet",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCDialoguePopUpSheet",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCDialoguePopUpSheet",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCDialoguePopUpSheet",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "randomFrame": false
+        },
+        {
+            "key": "AfterQuest",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "NPCDialoguePopUpMainQuestSheet",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCDialoguePopUpMainQuestSheet",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCDialoguePopUpMainQuestSheet",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCDialoguePopUpMainQuestSheet",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCDialoguePopUpMainQuestSheet",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCDialoguePopUpMainQuestSheet",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCDialoguePopUpMainQuestSheet",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCDialoguePopUpMainQuestSheet",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "randomFrame": false
+        },
+        {
+            "key": "bodyDown",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "bodyUp",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 8,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 9,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 10,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 11,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 12,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 13,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "bodyRight",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 14,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 15,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 16,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 17,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 18,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 19,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 20,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "bodyLeft",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 21,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 22,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 23,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 24,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 25,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 26,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 27,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "bodyIdleDown",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "bodyIdleLeft",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 21,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "bodyIdleUp",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "bodyIdleRight",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "PlayerWalking_V01",
+                    "frame": 14,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "BeachTree_1",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "TreePalmSheet_01",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_01",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_01",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_01",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_01",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_01",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_01",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_01",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_01",
+                    "frame": 8,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_01",
+                    "frame": 9,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "HelpBottomIconHelpBottomIcon",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "HelpBottomIcon",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "HelpBottomIcon",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "HelpBottomIcon",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 20,
+            "skipMissedFrames": true,
+            "yoyo": true,
+            "randomFrame": false
+        },
+        {
+            "key": "HelpButtonIconHelpButtonIcon",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "HelpButtonIcon",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "HelpButtonIcon",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "HelpButtonIcon",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 20,
+            "skipMissedFrames": true,
+            "yoyo": true,
+            "randomFrame": false
+        },
+        {
+            "key": "HomeButtonIconHomeButtonIcon",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "HomeButtonIcon",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "HomeButtonIcon",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "HomeButtonIcon",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 20,
+            "skipMissedFrames": true,
+            "yoyo": true,
+            "randomFrame": false
+        },
+        {
+            "key": "LogoutIconLogoutIcon",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "LogoutIcon",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LogoutIcon",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LogoutIcon",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 20,
+            "skipMissedFrames": true,
+            "yoyo": true,
+            "randomFrame": false
+        },
+        {
+            "key": "TrophyIconTrophyIcon",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "TrophyIcon",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TrophyIcon",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TrophyIcon",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 20,
+            "skipMissedFrames": true,
+            "yoyo": true,
+            "randomFrame": false
+        },
+        {
+            "key": "InboxIconInboxIcon",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "InboxIcon",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "InboxIcon",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "InboxIcon",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 20,
+            "skipMissedFrames": true,
+            "yoyo": true,
+            "randomFrame": false
+        },
+        {
+            "key": "OptionMenuIconOptionMenuIcon",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "OptionMenuIcon",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "OptionMenuIcon",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "OptionMenuIcon",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 20,
+            "skipMissedFrames": true,
+            "yoyo": true,
+            "randomFrame": false
+        },
+        {
+            "key": "SettingsIconSettingsIcon",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "SettingsIcon",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "SettingsIcon",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "SettingsIcon",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 20,
+            "skipMissedFrames": true,
+            "yoyo": true,
+            "randomFrame": false
+        },
+        {
+            "key": "BeachTree_2",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "TreePalmSheet_02",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_02",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_02",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_02",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_02",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_02",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_02",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_02",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_02",
+                    "frame": 8,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_02",
+                    "frame": 9,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "BeachTree_3",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "TreePalmSheet_03",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_03",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_03",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_03",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_03",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_03",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_03",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_03",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_03",
+                    "frame": 8,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "TreePalmSheet_03",
+                    "frame": 9,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "BeachWaterCenter",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 12,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 13,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 14,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 15,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 16,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 17,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 18,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 19,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "BeachWater_1",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 74,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 75,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 76,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 77,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 78,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 79,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 80,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 81,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 82,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 83,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 84,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 85,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 86,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 87,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 88,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "BeachWater_3",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 323,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 324,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 325,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 326,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 327,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 328,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 329,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 330,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 331,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 332,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 333,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 334,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 335,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 336,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 337,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "BeachWater_4",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 391,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 392,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 393,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 394,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 395,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 396,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 397,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 398,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 399,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 400,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 401,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 402,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 403,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 404,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 405,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "BeachWater_2",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 289,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 290,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 291,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 292,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 293,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 294,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 295,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 296,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 297,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 298,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 299,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 300,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 301,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 302,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 303,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "BeachWater_5",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 40,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 41,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 42,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 43,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 44,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 45,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 46,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 47,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 48,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 49,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 50,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 51,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 52,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 53,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 54,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "BeachWater_6",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 142,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 143,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 144,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 145,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 146,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 147,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 148,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 149,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 150,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 151,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 152,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 153,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 154,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 155,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 156,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "BeachWater_7",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 306,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 307,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 308,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 309,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 310,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 311,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 312,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 313,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 314,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 315,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 316,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 317,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 318,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 319,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 320,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "BeachWater_8",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 442,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 443,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 444,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 445,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 446,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 447,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 448,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 449,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 450,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 451,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 452,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 453,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 454,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 455,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 456,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "BeachWater_10",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 176,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 177,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 178,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 179,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 180,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 181,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 182,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 183,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 184,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 185,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 186,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 187,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 188,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 189,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 190,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "BeachWater_12",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 210,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 211,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 212,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 213,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 214,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 215,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 216,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 217,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 218,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 219,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 220,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 221,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 222,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 223,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 224,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "BeachWater_9",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 340,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 341,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 342,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 343,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 344,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 345,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 346,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 347,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 348,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 349,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 350,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 351,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 352,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 353,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 354,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "BeachWater_11",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 408,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 409,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 410,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 411,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 412,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 413,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 414,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 415,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 416,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 417,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 418,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 419,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 420,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 421,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 422,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "BeachWater_13",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 374,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 375,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 376,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 377,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 378,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 379,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 380,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 381,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 382,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 383,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 384,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 385,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 386,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 387,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 388,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "BeachWater_14",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 210,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 211,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 212,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 213,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 214,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 215,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 216,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 217,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 218,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 219,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 220,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 221,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 222,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 223,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 224,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "BeachWater_15",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 176,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 177,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 178,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 179,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 180,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 181,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 182,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 183,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 184,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 185,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 186,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 187,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 188,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 189,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "BeachWaterSheet_v01",
+                    "frame": 190,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "rockMonsterIdle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "RockIdle_v01",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockIdle_v01",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockIdle_v01",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockIdle_v01",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockIdle_v01",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockIdle_v01",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockIdle_v01",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "rockMonsterAttack",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "RockAttack_V01",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockAttack_V01",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockAttack_V01",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockAttack_V01",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockAttack_V01",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockAttack_V01",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockAttack_V01",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockAttack_V01",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockAttack_V01",
+                    "frame": 8,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockAttack_V01",
+                    "frame": 9,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockAttack_V01",
+                    "frame": 10,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockAttack_V01",
+                    "frame": 11,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockAttack_V01",
+                    "frame": 12,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockAttack_V01",
+                    "frame": 13,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockAttack_V01",
+                    "frame": 14,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockAttack_V01",
+                    "frame": 15,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockAttack_V01",
+                    "frame": 16,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockAttack_V01",
+                    "frame": 17,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockAttack_V01",
+                    "frame": 18,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 12,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "rockMonsterDeath",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "RockDeath_V01",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockDeath_V01",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockDeath_V01",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockDeath_V01",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockDeath_V01",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockDeath_V01",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockDeath_V01",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockDeath_V01",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockDeath_V01",
+                    "frame": 8,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockDeath_V01",
+                    "frame": 9,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockDeath_V01",
+                    "frame": 10,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockDeath_V01",
+                    "frame": 11,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockDeath_V01",
+                    "frame": 12,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockDeath_V01",
+                    "frame": 13,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "rockMonsterWalking",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "RockWalking_V01",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockWalking_V01",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockWalking_V01",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockWalking_V01",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockWalking_V01",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockWalking_V01",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "rockMonsterHurt",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "RockHurt_V01",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockHurt_V01",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockHurt_V01",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockHurt_V01",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockHurt_V01",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockHurt_V01",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockHurt_V01",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockHurt_V01",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockHurt_V01",
+                    "frame": 8,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockHurt_V01",
+                    "frame": 9,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockHurt_V01",
+                    "frame": 10,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockHurt_V01",
+                    "frame": 11,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockHurt_V01",
+                    "frame": 12,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RockHurt_V01",
+                    "frame": 13,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "MineFire",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "CampFireFireSheet_V02",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "CampFireFireSheet_V02",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "CampFireFireSheet_V02",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "CampFireFireSheet_V02",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "CampFireFireSheet_V02",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "CampFireFireSheet_V02",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "CampFireFireSheet_V02",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "CampFireFireSheet_V02",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "SquareFountan",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "WaterFountain",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "WaterFountain",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "WaterFountain",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "WaterFountain",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "SquareCampFire",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "CampFireFireSheet",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "CampFireFireSheet",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "CampFireFireSheet",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "CampFireFireSheet",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "CampFireFireSheet",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "CampFireFireSheet",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "CampFireFireSheet",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "CampFireFireSheet",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "RiverMiddle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 471,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 472,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 473,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 474,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 475,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 476,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 477,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 478,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "RiverMiddle_1",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 501,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 502,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 503,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 504,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 505,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 506,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 507,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 508,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "RiverMiddle_2",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 531,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 532,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 533,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 534,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 535,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 536,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 537,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 538,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "RiverMiddle_3",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 561,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 562,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 563,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 564,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 565,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 566,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 567,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 568,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "RiverLeft_1",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 333,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 334,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 335,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 336,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 337,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 338,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 339,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 340,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "RiverRight_1",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 193,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 194,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 195,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 196,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 197,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 198,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 199,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "RiverLeftDown_1",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 65,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 66,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 67,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 68,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 69,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 70,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 71,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "RiverLeft_2",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 95,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 96,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 97,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 98,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 99,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 100,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 101,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "RiverDown",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 261,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 262,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 263,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 264,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 265,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 266,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 267,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 268,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "GoblinAttack",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "GoblinAttack128x96_V01",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GoblinAttack128x96_V01",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GoblinAttack128x96_V01",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GoblinAttack128x96_V01",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GoblinAttack128x96_V01",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GoblinAttack128x96_V01",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "GoblinHurt",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "GoblinHurt96x96_V01",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GoblinHurt96x96_V01",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GoblinHurt96x96_V01",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GoblinHurt96x96_V01",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GoblinHurt96x96_V01",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GoblinHurt96x96_V01",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GoblinHurt96x96_V01",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GoblinHurt96x96_V01",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "GoblinIdle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "GoblinIdle96x96_V01",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GoblinIdle96x96_V01",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GoblinIdle96x96_V01",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GoblinIdle96x96_V01",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GoblinIdle96x96_V01",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GoblinIdle96x96_V01",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "GoblinWalking",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "GoblinWalking96x96_V01",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GoblinWalking96x96_V01",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GoblinWalking96x96_V01",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GoblinWalking96x96_V01",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GoblinWalking96x96_V01",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "GoblinWalking96x96_V01",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "RiverUp",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 252,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 253,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 254,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 255,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 256,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 257,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 258,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "RiverShallowSheet_v01",
+                    "frame": 259,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "npcmarcus",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "NPCMarcus_Mining_Fullset",
+                    "frame": 8,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCMarcus_Mining_Fullset",
+                    "frame": 9,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCMarcus_Mining_Fullset",
+                    "frame": 10,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCMarcus_Mining_Fullset",
+                    "frame": 11,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "Spear",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "NPCSoilderSpearAttack_V01",
+                    "frame": 48,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCSoilderSpearAttack_V01",
+                    "frame": 49,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCSoilderSpearAttack_V01",
+                    "frame": 50,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCSoilderSpearAttack_V01",
+                    "frame": 51,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCSoilderSpearAttack_V01",
+                    "frame": 52,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCSoilderSpearAttack_V01",
+                    "frame": 53,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCSoilderSpearAttack_V01",
+                    "frame": 16,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCSoilderSpearAttack_V01",
+                    "frame": 17,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCSoilderSpearAttack_V01",
+                    "frame": 18,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCSoilderSpearAttack_V01",
+                    "frame": 19,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "NpcRowan",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 8,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 9,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 10,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 11,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 12,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 13,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 14,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 15,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 16,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 17,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 18,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 19,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 20,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 21,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 22,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 23,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 24,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 25,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 26,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 27,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 28,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 29,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 30,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 31,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 32,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 33,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 34,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 35,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 36,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 37,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 38,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 39,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 40,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 41,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 42,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 43,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 44,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 45,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 46,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 47,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 48,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 49,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 50,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 51,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 52,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 53,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 54,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 55,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 56,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 57,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 58,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 59,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 60,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 61,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 62,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "NPCRowan_Fullset_Attack",
+                    "frame": 63,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "FarmingLakeStone_1LakeFloatingRock",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "LakeFloatingRock_V01",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V01",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V01",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V01",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V01",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V01",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V01",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V01",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "FarmingLakeStone_2LakeFloatingRock",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "LakeFloatingRock_V02",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V02",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V02",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V02",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V02",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V02",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V02",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V02",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "FarmingLakeStone_3LakeFloatingRock",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "LakeFloatingRock_V03",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V03",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V03",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V03",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V03",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V03",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V03",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeFloatingRock_V03",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "FarmingLakeFishFishes_3_32x",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Fishes_3_32x32",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Fishes_3_32x32",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Fishes_3_32x32",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Fishes_3_32x32",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Fishes_3_32x32",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Fishes_3_32x32",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Fishes_3_32x32",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Fishes_3_32x32",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Fishes_3_32x32",
+                    "frame": 8,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Fishes_3_32x32",
+                    "frame": 9,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Fishes_3_32x32",
+                    "frame": 10,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Fishes_3_32x32",
+                    "frame": 11,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Fishes_3_32x32",
+                    "frame": 12,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Fishes_3_32x32",
+                    "frame": 13,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "FarmingLakeFish_1Fishes_1_32x32gif",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Fishes_1_32x32gif",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Fishes_1_32x32gif",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Fishes_1_32x32gif",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Fishes_1_32x32gif",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Fishes_1_32x32gif",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Fishes_1_32x32gif",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Fishes_1_32x32gif",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Fishes_1_32x32gif",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Fishes_1_32x32gif",
+                    "frame": 8,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Fishes_1_32x32gif",
+                    "frame": 9,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Fishes_1_32x32gif",
+                    "frame": 10,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Fishes_1_32x32gif",
+                    "frame": 11,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "repeatDelay": 5000,
+            "randomFrame": false
+        },
+        {
+            "key": "FarmingMapWaterAniRightUp",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "LakeBorderAni",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeBorderAni",
+                    "frame": 9,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeBorderAni",
+                    "frame": 15,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeBorderAni",
+                    "frame": 21,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "FarmingMapWaterAniUp",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "LakeBorderAni",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeBorderAni",
+                    "frame": 10,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeBorderAni",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeBorderAni",
+                    "frame": 16,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "FarmingMapWaterAniLeft",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "LakeBorderAni",
+                    "frame": 24,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeBorderAni",
+                    "frame": 27,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeBorderAni",
+                    "frame": 30,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeBorderAni",
+                    "frame": 33,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeBorderAni",
+                    "frame": 39,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeBorderAni",
+                    "frame": 45,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "FarmingMapWaterAniLeftUp",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "LakeBorderCornerAni",
+                    "frame": 31,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeBorderCornerAni",
+                    "frame": 29,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeBorderCornerAni",
+                    "frame": 27,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeBorderCornerAni",
+                    "frame": 25,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeBorderCornerAni",
+                    "frame": 23,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "FarmingMapWaterAniRight",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "LakeBorderAni",
+                    "frame": 26,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeBorderAni",
+                    "frame": 29,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeBorderAni",
+                    "frame": 32,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeBorderAni",
+                    "frame": 35,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "FarmingMapWaterAniRUp",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "LakeBorderAni",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeBorderAni",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeBorderAni",
+                    "frame": 8,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeBorderAni",
+                    "frame": 11,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "FarmingMapWaterAniRDown",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "LakeBorderCornerAni",
+                    "frame": 16,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeBorderCornerAni",
+                    "frame": 18,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeBorderCornerAni",
+                    "frame": 20,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "LakeBorderCornerAni",
+                    "frame": 22,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        },
+        {
+            "key": "SwanSwan_Sheet",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Swan_Sheet_V01",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Swan_Sheet_V01",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Swan_Sheet_V01",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Swan_Sheet_V01",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Swan_Sheet_V01",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Swan_Sheet_V01",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Swan_Sheet_V01",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Swan_Sheet_V01",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Swan_Sheet_V01",
+                    "frame": 8,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Swan_Sheet_V01",
+                    "frame": 9,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Swan_Sheet_V01",
+                    "frame": 10,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Swan_Sheet_V01",
+                    "frame": 11,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Swan_Sheet_V01",
+                    "frame": 12,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Swan_Sheet_V01",
+                    "frame": 13,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Swan_Sheet_V01",
+                    "frame": 14,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Swan_Sheet_V01",
+                    "frame": 15,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Swan_Sheet_V01",
+                    "frame": 16,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Swan_Sheet_V01",
+                    "frame": 17,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Swan_Sheet_V01",
+                    "frame": 18,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Swan_Sheet_V01",
+                    "frame": 19,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 6,
+            "skipMissedFrames": true,
+            "delay": 2,
+            "repeat": -1,
+            "repeatDelay": 1000,
+            "randomFrame": false
+        },
+        {
+            "key": "FrogFrog_Sheet",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Frog_Sheet_V01",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Frog_Sheet_V01",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Frog_Sheet_V01",
+                    "frame": 2,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Frog_Sheet_V01",
+                    "frame": 3,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Frog_Sheet_V01",
+                    "frame": 4,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Frog_Sheet_V01",
+                    "frame": 5,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Frog_Sheet_V01",
+                    "frame": 6,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Frog_Sheet_V01",
+                    "frame": 7,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Frog_Sheet_V01",
+                    "frame": 8,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Frog_Sheet_V01",
+                    "frame": 9,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Frog_Sheet_V01",
+                    "frame": 10,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Frog_Sheet_V01",
+                    "frame": 11,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Frog_Sheet_V01",
+                    "frame": 12,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Frog_Sheet_V01",
+                    "frame": 13,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Frog_Sheet_V01",
+                    "frame": 14,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Frog_Sheet_V01",
+                    "frame": 15,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Frog_Sheet_V01",
+                    "frame": 16,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Frog_Sheet_V01",
+                    "frame": 17,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Frog_Sheet_V01",
+                    "frame": 18,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "Frog_Sheet_V01",
+                    "frame": 19,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "randomFrame": false
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    },
+    "settings": {
+        "sourceLang": "JAVA_SCRIPT",
+        "esModule": false,
+        "generateCode": false
+    }
+}

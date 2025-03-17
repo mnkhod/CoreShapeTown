@@ -1,0 +1,92 @@
+{
+    "id": "511211d3-4280-4710-b0e3-c823277bb8e4",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1024,
+        "borderHeight": 768
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "f519a2f3-5d9c-40f3-91ae-dc505a091e07",
+            "label": "container_1",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "0164681b-a243-4d69-a417-8c4a73d7a549",
+                    "label": "openMapIcon",
+                    "texture": {
+                        "key": "OpenMapIcon"
+                    },
+                    "x": 24,
+                    "y": 24,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "751a2695-9f57-41b7-ba79-9fa19885b03c",
+                    "label": "hoveredOpenMapIcon",
+                    "texture": {
+                        "key": "HoveredOpenMapIcon"
+                    },
+                    "x": 24,
+                    "y": 24,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "339189c4-9de8-4c1c-ae2b-e2c5cd2e8269",
+                    "label": "hotkey_m",
+                    "texture": {
+                        "key": "HotkeyM"
+                    },
+                    "x": 38,
+                    "y": 35,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                }
+            ]
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "d7eb39a0-841c-4bbe-9799-2a8221db9444",
+            "type": "Keyboard.Key",
+            "label": "key_m",
+            "keyCode": "M"
+        },
+        {
+            "id": "d987a04e-6d42-463b-b6ec-de5fedc676f0",
+            "type": "Keyboard.Key",
+            "label": "key_esc",
+            "keyCode": "ESC"
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "player",
+            "label": "Player",
+            "tooltip": "",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "object-var",
+                "expressionType": "Phaser.GameObjects.GameObject"
+            }
+        }
+    ]
+}

@@ -1,0 +1,3982 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/fonts/8-bit Arcade In.ttf",
+                "format": "truetype",
+                "descriptors": {},
+                "type": "font",
+                "key": "8-bit Arcade In"
+            },
+            {
+                "url": "assets/hud/Inventory/ActiveSlot1.png",
+                "type": "image",
+                "key": "ActiveSlot1"
+            },
+            {
+                "url": "assets/hud/Inventory/ActiveSlot2.png",
+                "type": "image",
+                "key": "ActiveSlot2"
+            },
+            {
+                "url": "assets/hud/Inventory/ActiveSlot3.png",
+                "type": "image",
+                "key": "ActiveSlot3"
+            },
+            {
+                "url": "assets/hud/Inventory/ActiveSlot4.png",
+                "type": "image",
+                "key": "ActiveSlot4"
+            },
+            {
+                "url": "assets/hud/Inventory/ActiveSlot5.png",
+                "type": "image",
+                "key": "ActiveSlot5"
+            },
+            {
+                "url": "assets/hud/Inventory/ActiveSlot6.png",
+                "type": "image",
+                "key": "ActiveSlot6"
+            },
+            {
+                "url": "assets/hud/Inventory/ActiveSlot7.png",
+                "type": "image",
+                "key": "ActiveSlot7"
+            },
+            {
+                "url": "assets/hud/Inventory/ActiveSlot8.png",
+                "type": "image",
+                "key": "ActiveSlot8"
+            },
+            {
+                "url": "assets/Building/AdventureGuildBuilding.png",
+                "frameConfig": {
+                    "frameWidth": 480,
+                    "frameHeight": 384,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "AdventureGuildBuilding"
+            },
+            {
+                "url": "assets/Decoration/AncientScript_V01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "AncientScript_V01"
+            },
+            {
+                "url": "assets/animations.json",
+                "type": "animation",
+                "key": "animations"
+            },
+            {
+                "url": "assets/InventoryIcons/apple.png",
+                "type": "image",
+                "key": "apple"
+            },
+            {
+                "url": "assets/mapAssets/Apple.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Apple"
+            },
+            {
+                "url": "assets/TradeIcons/Forager/apple.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "AppleItem"
+            },
+            {
+                "url": "assets/hud/Backpack.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Backpack"
+            },
+            {
+                "url": "assets/Building/Barricade_V01.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Barricade_V01"
+            },
+            {
+                "url": "assets/Building/BarricadeSpikes_V01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "BarricadeSpikes_V01"
+            },
+            {
+                "url": "assets/Building/BarricadeSpikes_V02.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "BarricadeSpikes_V02"
+            },
+            {
+                "url": "assets/Building/BarricadeSpikes_V03.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "BarricadeSpikes_V03"
+            },
+            {
+                "url": "assets/Ground tileset/BeachDeckSheet.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "BeachDeckSheet"
+            },
+            {
+                "url": "assets/Ground tileset/BeachStairs_V01R.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "BeachStairs_V01R"
+            },
+            {
+                "url": "assets/Tree/BeachTree_V1.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "BeachTree_V1"
+            },
+            {
+                "url": "assets/Ground tileset/BeachWaterAni_03.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "BeachWaterAni_03"
+            },
+            {
+                "url": "assets/Ground tileset/BeachWaterAni_V01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "BeachWaterAni_V01"
+            },
+            {
+                "url": "assets/Ground tileset/BeachWaterAni_V02.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "BeachWaterAni_V02"
+            },
+            {
+                "url": "assets/Ground tileset/BeachWaterSheet_v01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "BeachWaterSheet_v01"
+            },
+            {
+                "url": "assets/Building/Blacksmith.png",
+                "frameConfig": {
+                    "frameWidth": 256,
+                    "frameHeight": 288,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Blacksmith"
+            },
+            {
+                "url": "assets/Decoration/BoatStranded.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "BoatStranded"
+            },
+            {
+                "url": "assets/hud/Book.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Book"
+            },
+            {
+                "url": "assets/Building/BridgeRobe.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "BridgeRobe"
+            },
+            {
+                "url": "assets/Building/Building_5_Door_32x32_2.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Building_5_Door_32x32_2"
+            },
+            {
+                "url": "assets/Decoration/bush.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "bush"
+            },
+            {
+                "url": "assets/Ground tileset/Campfire_2_32x32.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Campfire_2_32x32"
+            },
+            {
+                "url": "assets/Ground tileset/Campfire_32x32.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Campfire_32x32"
+            },
+            {
+                "url": "assets/Decoration/Campfire_V01.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 96,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Campfire_V01"
+            },
+            {
+                "url": "assets/Decoration/CampFireFireSheet.png",
+                "frameConfig": {
+                    "frameWidth": 160,
+                    "frameHeight": 160,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "CampFireFireSheet"
+            },
+            {
+                "url": "assets/Decoration/CampFireFireSheet_V02.png",
+                "frameConfig": {
+                    "frameWidth": 160,
+                    "frameHeight": 160,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "CampFireFireSheet_V02"
+            },
+            {
+                "url": "assets/Decoration/CampfireSmoke.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "CampfireSmoke"
+            },
+            {
+                "url": "assets/Building/CapitansCabin.png",
+                "frameConfig": {
+                    "frameWidth": 224,
+                    "frameHeight": 288,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "CapitansCabin"
+            },
+            {
+                "url": "assets/Decoration/CarriageBroken_01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "CarriageBroken_01"
+            },
+            {
+                "url": "assets/Character/Fishing/Clothing/char_a_p3_1out_pfdr_v04.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "char_a_p3_1out_pfdr_v04"
+            },
+            {
+                "url": "assets/Character/Walking/Clothing/CharacterOutfit_1.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "CharacterOutfit_1"
+            },
+            {
+                "url": "assets/Character/Walking/Clothing/CharacterOutfit_2.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "CharacterOutfit_2"
+            },
+            {
+                "url": "assets/Character/Walking/Clothing/CharacterOutfit_3.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "CharacterOutfit_3"
+            },
+            {
+                "url": "assets/mapAssets/CityHouses_v02.png",
+                "frameConfig": {
+                    "frameWidth": 256,
+                    "frameHeight": 416,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "CityHouses_v02"
+            },
+            {
+                "url": "assets/Crops/Crops Growt Cycle/Crop_Cycle_BokChok.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Crop_Cycle_BokChok"
+            },
+            {
+                "url": "assets/Crops/Crops Growt Cycle/Crop_Cycle_Broccoli.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Crop_Cycle_Broccoli"
+            },
+            {
+                "url": "assets/Crops/Crops Growt Cycle/Crop_Cycle_Carrot.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Crop_Cycle_Carrot"
+            },
+            {
+                "url": "assets/Crops/Crops Growt Cycle/Crop_Cycle_Cauliflower.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Crop_Cycle_Cauliflower"
+            },
+            {
+                "url": "assets/Crops/Crops Growt Cycle/Crop_Cycle_Chili.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Crop_Cycle_Chili"
+            },
+            {
+                "url": "assets/Crops/Crops Growt Cycle/Crop_Cycle_Corn.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Crop_Cycle_Corn"
+            },
+            {
+                "url": "assets/Crops/Crops Growt Cycle/Crop_Cycle_EggPlant.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Crop_Cycle_EggPlant"
+            },
+            {
+                "url": "assets/Crops/Crops Growt Cycle/Crop_Cycle_Garlic.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Crop_Cycle_Garlic"
+            },
+            {
+                "url": "assets/Crops/Crops Growt Cycle/Crop_Cycle_Greenbean.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Crop_Cycle_Greenbean"
+            },
+            {
+                "url": "assets/Crops/Crops Growt Cycle/Crop_Cycle_Parsnip.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Crop_Cycle_Parsnip"
+            },
+            {
+                "url": "assets/Crops/Crops Growt Cycle/Crop_Cycle_Potato.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Crop_Cycle_Potato"
+            },
+            {
+                "url": "assets/Crops/Crops Growt Cycle/Crop_Cycle_Pumpkin.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Crop_Cycle_Pumpkin"
+            },
+            {
+                "url": "assets/Crops/Crops Growt Cycle/Crop_Cycle_Radish.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Crop_Cycle_Radish"
+            },
+            {
+                "url": "assets/Crops/Crops Growt Cycle/Crop_Cycle_RedCabagge.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Crop_Cycle_RedCabagge"
+            },
+            {
+                "url": "assets/Crops/Crops Growt Cycle/Crop_Cycle_Wheat.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Crop_Cycle_Wheat"
+            },
+            {
+                "url": "assets/Crops/Icons/Normal Icon/Fruit/crops-artichoke.png",
+                "type": "image",
+                "key": "crops-artichoke"
+            },
+            {
+                "url": "assets/Crops/Icons/Highlighted/Fruit/crops-artichoke_01.png",
+                "type": "image",
+                "key": "crops-artichoke_01"
+            },
+            {
+                "url": "assets/InventoryIcons/crops-artichoke.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "crops-artichoke_1"
+            },
+            {
+                "url": "assets/Crops/Icons/Normal Icon/Fruit/crops-blueberry.png",
+                "type": "image",
+                "key": "crops-blueberry"
+            },
+            {
+                "url": "assets/Crops/Icons/Highlighted/Fruit/crops-blueberry_01.png",
+                "type": "image",
+                "key": "crops-blueberry_01"
+            },
+            {
+                "url": "assets/InventoryIcons/crops-blueberry.png",
+                "type": "image",
+                "key": "crops-blueberry_1"
+            },
+            {
+                "url": "assets/Crops/Icons/Normal Icon/Crops/crops-bok chok.png",
+                "type": "image",
+                "key": "crops-bok chok"
+            },
+            {
+                "url": "assets/Crops/Icons/Highlighted/Crops/crops-bok chok_01.png",
+                "type": "image",
+                "key": "crops-bok chok_01"
+            },
+            {
+                "url": "assets/Crops/Icons/Normal Icon/Crops/crops-broccoli.png",
+                "type": "image",
+                "key": "crops-broccoli"
+            },
+            {
+                "url": "assets/Crops/Icons/Highlighted/Crops/crops-broccoli_01.png",
+                "type": "image",
+                "key": "crops-broccoli_01"
+            },
+            {
+                "url": "assets/Crops/Icons/Normal Icon/Crops/crops-carrot.png",
+                "type": "image",
+                "key": "crops-carrot"
+            },
+            {
+                "url": "assets/Crops/Icons/Highlighted/Crops/crops-carrot_01.png",
+                "type": "image",
+                "key": "crops-carrot_01"
+            },
+            {
+                "url": "assets/Crops/Icons/Normal Icon/Crops/crops-cauliflower.png",
+                "type": "image",
+                "key": "crops-cauliflower"
+            },
+            {
+                "url": "assets/Crops/Icons/Highlighted/Crops/crops-cauliflower_01.png",
+                "type": "image",
+                "key": "crops-cauliflower_01"
+            },
+            {
+                "url": "assets/Crops/Icons/Normal Icon/Crops/crops-chili.png",
+                "type": "image",
+                "key": "crops-chili"
+            },
+            {
+                "url": "assets/Crops/Icons/Highlighted/Crops/crops-chili_01.png",
+                "type": "image",
+                "key": "crops-chili_01"
+            },
+            {
+                "url": "assets/Crops/Icons/Normal Icon/Fruit/crops-coffee bean.png",
+                "type": "image",
+                "key": "crops-coffee bean"
+            },
+            {
+                "url": "assets/Crops/Icons/Highlighted/Fruit/crops-coffee bean_01.png",
+                "type": "image",
+                "key": "crops-coffee bean_01"
+            },
+            {
+                "url": "assets/Crops/Icons/Normal Icon/Crops/crops-corn.png",
+                "type": "image",
+                "key": "crops-corn"
+            },
+            {
+                "url": "assets/Crops/Icons/Highlighted/Crops/crops-corn_01.png",
+                "type": "image",
+                "key": "crops-corn_01"
+            },
+            {
+                "url": "assets/Crops/Icons/Normal Icon/Crops/crops-eggplant.png",
+                "type": "image",
+                "key": "crops-eggplant"
+            },
+            {
+                "url": "assets/Crops/Icons/Highlighted/Crops/crops-eggplant_01.png",
+                "type": "image",
+                "key": "crops-eggplant_01"
+            },
+            {
+                "url": "assets/Crops/Icons/Normal Icon/Crops/crops-garlic.png",
+                "type": "image",
+                "key": "crops-garlic"
+            },
+            {
+                "url": "assets/Crops/Icons/Highlighted/Crops/crops-garlic_01.png",
+                "type": "image",
+                "key": "crops-garlic_01"
+            },
+            {
+                "url": "assets/Crops/Icons/Normal Icon/Fruit/crops-grape.png",
+                "type": "image",
+                "key": "crops-grape"
+            },
+            {
+                "url": "assets/Crops/Icons/Highlighted/Fruit/crops-grape_01.png",
+                "type": "image",
+                "key": "crops-grape_01"
+            },
+            {
+                "url": "assets/Crops/Icons/Normal Icon/Crops/crops-green bean.png",
+                "type": "image",
+                "key": "crops-green bean"
+            },
+            {
+                "url": "assets/Crops/Icons/Highlighted/Crops/crops-green bean_01.png",
+                "type": "image",
+                "key": "crops-green bean_01"
+            },
+            {
+                "url": "assets/Crops/Icons/Normal Icon/Fruit/crops-melon.png",
+                "type": "image",
+                "key": "crops-melon"
+            },
+            {
+                "url": "assets/Crops/Icons/Highlighted/Fruit/crops-melon_01.png",
+                "type": "image",
+                "key": "crops-melon_01"
+            },
+            {
+                "url": "assets/Crops/Icons/Normal Icon/Crops/crops-parsnip.png",
+                "type": "image",
+                "key": "crops-parsnip"
+            },
+            {
+                "url": "assets/Crops/Icons/Highlighted/Crops/crops-parsnip_01.png",
+                "type": "image",
+                "key": "crops-parsnip_01"
+            },
+            {
+                "url": "assets/Crops/Icons/Normal Icon/Crops/crops-potato.png",
+                "type": "image",
+                "key": "crops-potato"
+            },
+            {
+                "url": "assets/Crops/Icons/Highlighted/Crops/crops-potato_01.png",
+                "type": "image",
+                "key": "crops-potato_01"
+            },
+            {
+                "url": "assets/Crops/Icons/Normal Icon/Crops/crops-pumpkin.png",
+                "type": "image",
+                "key": "crops-pumpkin"
+            },
+            {
+                "url": "assets/Crops/Icons/Highlighted/Crops/crops-pumpkin_01.png",
+                "type": "image",
+                "key": "crops-pumpkin_01"
+            },
+            {
+                "url": "assets/Crops/Icons/Normal Icon/Crops/crops-radish.png",
+                "type": "image",
+                "key": "crops-radish"
+            },
+            {
+                "url": "assets/Crops/Icons/Highlighted/Crops/crops-radish_01.png",
+                "type": "image",
+                "key": "crops-radish_01"
+            },
+            {
+                "url": "assets/Crops/Icons/Normal Icon/Crops/crops-red cabagge.png",
+                "type": "image",
+                "key": "crops-red cabagge"
+            },
+            {
+                "url": "assets/Crops/Icons/Highlighted/Crops/crops-red cabagge_01.png",
+                "type": "image",
+                "key": "crops-red cabagge_01"
+            },
+            {
+                "url": "assets/Crops/Icons/seed sack/Fruit/crops-seed bags-artichoke.png",
+                "type": "image",
+                "key": "crops-seed bags-artichoke"
+            },
+            {
+                "url": "assets/Crops/Icons/seed sack/Fruit/crops-seed bags-blueberry.png",
+                "type": "image",
+                "key": "crops-seed bags-blueberry"
+            },
+            {
+                "url": "assets/Crops/Icons/seed sack/crops/crops-seed bags-bok choy.png",
+                "type": "image",
+                "key": "crops-seed bags-bok choy"
+            },
+            {
+                "url": "assets/Crops/Icons/seed sack/crops/crops-seed bags-broccoli.png",
+                "type": "image",
+                "key": "crops-seed bags-broccoli"
+            },
+            {
+                "url": "assets/Crops/Icons/seed sack/crops/crops-seed bags-carrot.png",
+                "type": "image",
+                "key": "crops-seed bags-carrot"
+            },
+            {
+                "url": "assets/Crops/Icons/seed sack/crops/crops-seed bags-cauliflower.png",
+                "type": "image",
+                "key": "crops-seed bags-cauliflower"
+            },
+            {
+                "url": "assets/Crops/Icons/seed sack/crops/crops-seed bags-chili.png",
+                "type": "image",
+                "key": "crops-seed bags-chili"
+            },
+            {
+                "url": "assets/Crops/Icons/seed sack/Fruit/crops-seed bags-coffee bean.png",
+                "type": "image",
+                "key": "crops-seed bags-coffee bean"
+            },
+            {
+                "url": "assets/Crops/Icons/seed sack/crops/crops-seed bags-corn.png",
+                "type": "image",
+                "key": "crops-seed bags-corn"
+            },
+            {
+                "url": "assets/Crops/Icons/seed sack/crops/crops-seed bags-eggplant.png",
+                "type": "image",
+                "key": "crops-seed bags-eggplant"
+            },
+            {
+                "url": "assets/Crops/Icons/seed sack/crops/crops-seed bags-garlic.png",
+                "type": "image",
+                "key": "crops-seed bags-garlic"
+            },
+            {
+                "url": "assets/Crops/Icons/seed sack/Fruit/crops-seed bags-grape.png",
+                "type": "image",
+                "key": "crops-seed bags-grape"
+            },
+            {
+                "url": "assets/Crops/Icons/seed sack/crops/crops-seed bags-green bean.png",
+                "type": "image",
+                "key": "crops-seed bags-green bean"
+            },
+            {
+                "url": "assets/Crops/Icons/seed sack/Fruit/crops-seed bags-melon.png",
+                "type": "image",
+                "key": "crops-seed bags-melon"
+            },
+            {
+                "url": "assets/Crops/Icons/seed sack/crops/crops-seed bags-parsnip.png",
+                "type": "image",
+                "key": "crops-seed bags-parsnip"
+            },
+            {
+                "url": "assets/Crops/Icons/seed sack/crops/crops-seed bags-potato.png",
+                "type": "image",
+                "key": "crops-seed bags-potato"
+            },
+            {
+                "url": "assets/Crops/Icons/seed sack/crops/crops-seed bags-pumpkin.png",
+                "type": "image",
+                "key": "crops-seed bags-pumpkin"
+            },
+            {
+                "url": "assets/Crops/Icons/seed sack/crops/crops-seed bags-radish.png",
+                "type": "image",
+                "key": "crops-seed bags-radish"
+            },
+            {
+                "url": "assets/Crops/Icons/seed sack/crops/crops-seed bags-red cabagge.png",
+                "type": "image",
+                "key": "crops-seed bags-red cabagge"
+            },
+            {
+                "url": "assets/Crops/Icons/seed sack/Fruit/crops-seed bags-strawberry.png",
+                "type": "image",
+                "key": "crops-seed bags-strawberry"
+            },
+            {
+                "url": "assets/Crops/Icons/seed sack/Fruit/crops-seed bags-tomato.png",
+                "type": "image",
+                "key": "crops-seed bags-tomato"
+            },
+            {
+                "url": "assets/Crops/Icons/seed sack/crops/crops-seed bags-wheat.png",
+                "type": "image",
+                "key": "crops-seed bags-wheat"
+            },
+            {
+                "url": "assets/Crops/Icons/Normal Icon/Fruit/crops-strawberry.png",
+                "type": "image",
+                "key": "crops-strawberry"
+            },
+            {
+                "url": "assets/Crops/Icons/Highlighted/Fruit/crops-strawberry_01.png",
+                "type": "image",
+                "key": "crops-strawberry_01"
+            },
+            {
+                "url": "assets/InventoryIcons/crops-strawberry.png",
+                "type": "image",
+                "key": "crops-strawberry_1"
+            },
+            {
+                "url": "assets/Crops/Icons/Normal Icon/Fruit/crops-tomato.png",
+                "type": "image",
+                "key": "crops-tomato"
+            },
+            {
+                "url": "assets/Crops/Icons/Highlighted/Fruit/crops-tomato_01.png",
+                "type": "image",
+                "key": "crops-tomato_01"
+            },
+            {
+                "url": "assets/InventoryIcons/crops-tomato.png",
+                "type": "image",
+                "key": "crops-tomato_1"
+            },
+            {
+                "url": "assets/Crops/Icons/Normal Icon/Crops/crops-wheat.png",
+                "type": "image",
+                "key": "crops-wheat"
+            },
+            {
+                "url": "assets/Crops/Icons/Highlighted/Crops/crops-wheat_01.png",
+                "type": "image",
+                "key": "crops-wheat_01"
+            },
+            {
+                "url": "assets/Ground tileset/DeckOnTheBeach.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "DeckOnTheBeach"
+            },
+            {
+                "url": "assets/Ground tileset/DecorationAngelStatue.png",
+                "frameConfig": {
+                    "frameWidth": 160,
+                    "frameHeight": 256,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "DecorationAngelStatue"
+            },
+            {
+                "url": "assets/Ground tileset/DecorationBeachSeagull.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "DecorationBeachSeagull"
+            },
+            {
+                "url": "assets/mapAssets/DecorationClouthHangger.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "DecorationClouthHangger"
+            },
+            {
+                "url": "assets/Ground tileset/DecorationMarketplace.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "DecorationMarketplace"
+            },
+            {
+                "url": "assets/Ground tileset/DecorationOnBeach.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "DecorationOnBeach"
+            },
+            {
+                "url": "assets/Ground tileset/DecorationWeaponStand.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "DecorationWeaponStand"
+            },
+            {
+                "url": "assets/files/image 35.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "ExitButtonIcon"
+            },
+            {
+                "url": "assets/mapAssets/FarmHorseStable.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "FarmHorseStable"
+            },
+            {
+                "url": "assets/Ground tileset/Farming_Soil_Tile_V01.png",
+                "type": "image",
+                "key": "Farming_Soil_Tile_V01"
+            },
+            {
+                "url": "assets/mapAssets/FarmingCropsVer2.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "FarmingCropsVer2"
+            },
+            {
+                "url": "assets/map/FarmingMap.json",
+                "type": "tilemapTiledJSON",
+                "key": "FarmingMap"
+            },
+            {
+                "url": "assets/Character/Farming/Tool/FarmingToolsHoe.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "FarmingToolsHoe"
+            },
+            {
+                "url": "assets/Character/Farming/Clothing/Tool/FarmingToolsHoe.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "FarmingToolsHoe_1"
+            },
+            {
+                "url": "assets/Character/Farming/Tool/FarmingToolsWatering.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "FarmingToolsWatering"
+            },
+            {
+                "url": "assets/Ground tileset/Fence_V01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Fence_V01"
+            },
+            {
+                "url": "assets/mapAssets/Fishes_1_32x32gif.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Fishes_1_32x32gif"
+            },
+            {
+                "url": "assets/mapAssets/Fishes_2_32x32.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Fishes_2_32x32"
+            },
+            {
+                "url": "assets/mapAssets/Fishes_3_32x32.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Fishes_3_32x32"
+            },
+            {
+                "url": "assets/Icon/FishIcon.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "FishIcon"
+            },
+            {
+                "url": "assets/Ground tileset/FishingBoat_V01R.png",
+                "frameConfig": {
+                    "frameWidth": 192,
+                    "frameHeight": 128,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "FishingBoat_V01R"
+            },
+            {
+                "url": "assets/hud/FishingHud.png",
+                "type": "image",
+                "key": "FishingHud"
+            },
+            {
+                "url": "assets/hud/FishingHudBackground.png",
+                "type": "image",
+                "key": "FishingHudBackground"
+            },
+            {
+                "url": "assets/mapAssets/Flower_v01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Flower_v01"
+            },
+            {
+                "url": "assets/mapAssets/Flower_v02.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Flower_v02"
+            },
+            {
+                "url": "assets/mapAssets/Flower_v03.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Flower_v03"
+            },
+            {
+                "url": "assets/mapAssets/Flower_v04.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Flower_v04"
+            },
+            {
+                "url": "assets/mapAssets/Flower_v05.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Flower_v05"
+            },
+            {
+                "url": "assets/Building/Foodstand.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Foodstand"
+            },
+            {
+                "url": "assets/Building/Foodstand_Busket.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Foodstand_Busket"
+            },
+            {
+                "url": "assets/Building/FoodstandBarrel_V01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "FoodstandBarrel_V01"
+            },
+            {
+                "url": "assets/Decoration/FoodstandIcon.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "FoodstandIcon"
+            },
+            {
+                "url": "assets/Building/FoodstandStall_V01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "FoodstandStall_V01"
+            },
+            {
+                "url": "assets/map/ForestMap.json",
+                "type": "tilemapTiledJSON",
+                "key": "ForestMap"
+            },
+            {
+                "url": "assets/Ground tileset/ForrestLadge.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "ForrestLadge"
+            },
+            {
+                "url": "assets/Mob/Friendly/Frog_Sheet_V01.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Frog_Sheet_V01"
+            },
+            {
+                "url": "assets/Crops/Fruit Growt Cycle/Fruit_Cycle_Artichoke.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Fruit_Cycle_Artichoke"
+            },
+            {
+                "url": "assets/Crops/Fruit Growt Cycle/Fruit_Cycle_Blueberry.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Fruit_Cycle_Blueberry"
+            },
+            {
+                "url": "assets/Crops/Fruit Growt Cycle/Fruit_Cycle_Coffee.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Fruit_Cycle_Coffee"
+            },
+            {
+                "url": "assets/Crops/Fruit Growt Cycle/Fruit_Cycle_Grape.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Fruit_Cycle_Grape"
+            },
+            {
+                "url": "assets/Crops/Fruit Growt Cycle/Fruit_Cycle_Melon.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Fruit_Cycle_Melon"
+            },
+            {
+                "url": "assets/Crops/Fruit Growt Cycle/Fruit_Cycle_Strawberry.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Fruit_Cycle_Strawberry"
+            },
+            {
+                "url": "assets/Crops/Fruit Growt Cycle/Fruit_Cycle_Tomato.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Fruit_Cycle_Tomato"
+            },
+            {
+                "url": "assets/Crops/Fruitbushes_V01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Fruitbushes_V"
+            },
+            {
+                "url": "assets/mapAssets/Fruitbushes_V01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Fruitbushes_V01"
+            },
+            {
+                "url": "assets/GameNpcs1.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "GameNpcs1"
+            },
+            {
+                "url": "assets/Mob/Enemies/DungenLVL1/Goblin/Death/Goblin_Death96x96.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 96,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Goblin_Death96x96"
+            },
+            {
+                "url": "assets/Mob/Enemies/DungenLVL1/Goblin/Attack/GoblinAttack128x96_V01.png",
+                "frameConfig": {
+                    "frameWidth": 128,
+                    "frameHeight": 96,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "GoblinAttack128x96_V01"
+            },
+            {
+                "url": "assets/Mob/Enemies/DungenLVL1/Goblin/Hurt/GoblinHurt96x96_V01.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 96,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "GoblinHurt96x96_V01"
+            },
+            {
+                "url": "assets/Mob/Enemies/DungenLVL1/Goblin/Idle/GoblinIdle96x96_V01.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 96,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "GoblinIdle96x96_V01"
+            },
+            {
+                "url": "assets/Mob/Enemies/DungenLVL1/Goblin/Walk/GoblinWalking96x96_V01.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 96,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "GoblinWalking96x96_V01"
+            },
+            {
+                "url": "assets/mapAssets/GroundAccessor.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "GroundAccessor"
+            },
+            {
+                "url": "assets/mapAssets/GroundTileset.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "GroundTileset"
+            },
+            {
+                "url": "assets/Ground tileset/GroundTileset.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "GroundTileset_1"
+            },
+            {
+                "url": "assets/Ground tileset/GroundTileset_V02.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "GroundTileset_V02"
+            },
+            {
+                "url": "assets/mapAssets/GroundTilestSoil.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "GroundTilestSoil"
+            },
+            {
+                "url": "assets/Ground tileset/GroundTilestSoil.png",
+                "type": "spritesheet",
+                "key": "GroundTilestSoil_1",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                }
+            },
+            {
+                "url": "assets/Building/GuardPostTower_V01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "GuardPostTower_V01"
+            },
+            {
+                "url": "assets/Character/Farming/Tool/HarvestingToolAxe_V01.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "HarvestingToolAxe_V01"
+            },
+            {
+                "url": "assets/hud/Options/HelpBottomIcon.png",
+                "frameConfig": {
+                    "frameWidth": 48,
+                    "frameHeight": 51,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "HelpBottomIcon"
+            },
+            {
+                "url": "assets/hud/Options/HelpButtonIcon.png",
+                "frameConfig": {
+                    "frameWidth": 48,
+                    "frameHeight": 51,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "HelpButtonIcon"
+            },
+            {
+                "url": "assets/hud/Options/HomeButtonIcon.png",
+                "frameConfig": {
+                    "frameWidth": 48,
+                    "frameHeight": 51,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "HomeButtonIcon"
+            },
+            {
+                "url": "assets/hud/Inventory/Hotkey.png",
+                "type": "image",
+                "key": "Hotkey"
+            },
+            {
+                "url": "assets/hud/Map/HotkeyM.png",
+                "type": "image",
+                "key": "HotkeyM"
+            },
+            {
+                "url": "assets/hud/Inventory/HotkeyTab.png",
+                "type": "image",
+                "key": "HotkeyTab"
+            },
+            {
+                "url": "assets/hud/Inventory/HoveredOpenInventory.png",
+                "type": "image",
+                "key": "HoveredOpenInventory"
+            },
+            {
+                "url": "assets/hud/Map/HoveredOpenMapIcon.png",
+                "type": "image",
+                "key": "HoveredOpenMapIcon"
+            },
+            {
+                "url": "assets/hud/Merchant/Hud_SellArea_GoldPrice_BackGround_3.png",
+                "type": "image",
+                "key": "Hud_SellArea_GoldPrice_BackGround_3"
+            },
+            {
+                "url": "assets/hud/HudItemSlot.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "HudItemSlot"
+            },
+            {
+                "url": "assets/InventoryIcons/Icon_Coal.png",
+                "type": "image",
+                "key": "Icon_Coal"
+            },
+            {
+                "url": "assets/InventoryIcons/Icon_Goblin_Ear.png",
+                "type": "image",
+                "key": "Icon_Goblin_Ear"
+            },
+            {
+                "url": "assets/InventoryIcons/Icon_Goblin_Eye.png",
+                "type": "image",
+                "key": "Icon_Goblin_Eye"
+            },
+            {
+                "url": "assets/InventoryIcons/Icon_Iron_Ore.png",
+                "type": "image",
+                "key": "Icon_Iron_Ore"
+            },
+            {
+                "url": "assets/InventoryIcons/Icon_IronBar.png",
+                "type": "image",
+                "key": "Icon_IronBar"
+            },
+            {
+                "url": "assets/InventoryIcons/Icon_Orc_Potion.png",
+                "type": "image",
+                "key": "Icon_Orc_Potion"
+            },
+            {
+                "url": "assets/InventoryIcons/Icon_Orc_teeth.png",
+                "type": "image",
+                "key": "Icon_Orc_teeth"
+            },
+            {
+                "url": "assets/InventoryIcons/Icon_Recipe_V01.png",
+                "type": "image",
+                "key": "Icon_Recipe_V01"
+            },
+            {
+                "url": "assets/InventoryIcons/Icon_Stone.png",
+                "type": "image",
+                "key": "Icon_Stone"
+            },
+            {
+                "url": "assets/IconBaseTools.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "IconBaseTools"
+            },
+            {
+                "url": "assets/TradeIcons/Merchant/IconGold.png",
+                "type": "image",
+                "key": "IconGold"
+            },
+            {
+                "url": "assets/InventoryIcons/IconGoldCoin.png",
+                "type": "image",
+                "key": "IconGoldCoin"
+            },
+            {
+                "url": "assets/InventoryIcons/IconIronIngot_v01.png",
+                "type": "image",
+                "key": "IconIronIngot_v01"
+            },
+            {
+                "url": "assets/InventoryIcons/IconIronSword.png",
+                "type": "image",
+                "key": "IconIronSword"
+            },
+            {
+                "url": "assets/InventoryIcons/IconToolAxe.png",
+                "type": "image",
+                "key": "IconToolAxe"
+            },
+            {
+                "url": "assets/InventoryIcons/IconToolFishingRod.png",
+                "type": "image",
+                "key": "IconToolFishingRod"
+            },
+            {
+                "url": "assets/InventoryIcons/IconToolHoe.png",
+                "type": "image",
+                "key": "IconToolHoe"
+            },
+            {
+                "url": "assets/InventoryIcons/IconToolPickaxe.png",
+                "type": "image",
+                "key": "IconToolPickaxe"
+            },
+            {
+                "url": "assets/InventoryIcons/IconToolWateringCan.png",
+                "type": "image",
+                "key": "IconToolWateringCan"
+            },
+            {
+                "url": "assets/hud/Inventory/InactiveSlot1.png",
+                "type": "image",
+                "key": "InactiveSlot1"
+            },
+            {
+                "url": "assets/hud/Inventory/InactiveSlot2.png",
+                "type": "image",
+                "key": "InactiveSlot2"
+            },
+            {
+                "url": "assets/hud/Inventory/InactiveSlot3.png",
+                "type": "image",
+                "key": "InactiveSlot3"
+            },
+            {
+                "url": "assets/hud/Inventory/InactiveSlot4.png",
+                "type": "image",
+                "key": "InactiveSlot4"
+            },
+            {
+                "url": "assets/hud/Inventory/InactiveSlot5.png",
+                "type": "image",
+                "key": "InactiveSlot5"
+            },
+            {
+                "url": "assets/hud/Inventory/InactiveSlot6.png",
+                "type": "image",
+                "key": "InactiveSlot6"
+            },
+            {
+                "url": "assets/hud/Inventory/InactiveSlot7.png",
+                "type": "image",
+                "key": "InactiveSlot7"
+            },
+            {
+                "url": "assets/hud/Inventory/InactiveSlot8.png",
+                "type": "image",
+                "key": "InactiveSlot8"
+            },
+            {
+                "url": "assets/hud/Options/InboxIcon.png",
+                "frameConfig": {
+                    "frameWidth": 48,
+                    "frameHeight": 51,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "InboxIcon"
+            },
+            {
+                "url": "assets/hud/Inventory/InGameInventoryBackground.png",
+                "type": "image",
+                "key": "InGameInventoryBackground"
+            },
+            {
+                "url": "assets/hud/ItemSlot.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "ItemSlot"
+            },
+            {
+                "url": "assets/mapAssets/LakeAccessor.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "LakeAccessor"
+            },
+            {
+                "url": "assets/Ground tileset/LakeBorderAni.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "LakeBorderAni"
+            },
+            {
+                "url": "assets/Ground tileset/LakeBorderCornerAni.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "LakeBorderCornerAni"
+            },
+            {
+                "url": "assets/Decoration/LakeDecoration.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "LakeDecoration"
+            },
+            {
+                "url": "assets/mapAssets/LakeFloatingRock_V01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "LakeFloatingRock_V01"
+            },
+            {
+                "url": "assets/mapAssets/LakeFloatingRock_V02.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "LakeFloatingRock_V02"
+            },
+            {
+                "url": "assets/mapAssets/LakeFloatingRock_V03.png",
+                "frameConfig": {
+                    "frameWidth": 128,
+                    "frameHeight": 128,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "LakeFloatingRock_V03"
+            },
+            {
+                "url": "assets/Building/Lighthouse_v01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Lighthouse_v01"
+            },
+            {
+                "url": "assets/fonts/Little Malio 8-Bit.otf",
+                "format": "opentype",
+                "descriptors": {},
+                "type": "font",
+                "key": "Little Malio 8-Bit"
+            },
+            {
+                "url": "assets/Decoration/Log_V01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Log_V01"
+            },
+            {
+                "url": "assets/loginConnect.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "loginConnect"
+            },
+            {
+                "url": "assets/logo.png",
+                "type": "image",
+                "key": "logo"
+            },
+            {
+                "url": "assets/hud/Options/LogoutIcon.png",
+                "frameConfig": {
+                    "frameWidth": 48,
+                    "frameHeight": 51,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "LogoutIcon"
+            },
+            {
+                "url": "assets/map/MarketMap.json",
+                "type": "tilemapTiledJSON",
+                "key": "MarketMap"
+            },
+            {
+                "url": "assets/Building/MerchantCabin_v01.png",
+                "frameConfig": {
+                    "frameWidth": 192,
+                    "frameHeight": 256,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "MerchantCabin_v01"
+            },
+            {
+                "url": "assets/Decoration/MerchantIcon.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "MerchantIcon"
+            },
+            {
+                "url": "assets/Building/MerchentanCarriege.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "MerchentanCarriege"
+            },
+            {
+                "url": "assets/MessageBox.png",
+                "type": "image",
+                "key": "MessageBox"
+            },
+            {
+                "url": "assets/hud/MessageBox.png",
+                "type": "image",
+                "key": "MessageBox_1"
+            },
+            {
+                "url": "assets/hud/MessageBox1.png",
+                "type": "image",
+                "key": "MessageBox1"
+            },
+            {
+                "url": "assets/hud/MessageBox2.png",
+                "type": "image",
+                "key": "MessageBox2"
+            },
+            {
+                "url": "assets/hud/MessageBox3.png",
+                "type": "image",
+                "key": "MessageBox3"
+            },
+            {
+                "url": "assets/Ground tileset/MineEntrance.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "MineEntrance"
+            },
+            {
+                "url": "assets/Building/Miner'stower.png",
+                "frameConfig": {
+                    "frameWidth": 160,
+                    "frameHeight": 256,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Miner'stower"
+            },
+            {
+                "url": "assets/Character/Farming/Tool/MiningToolPickaxe_V01.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "MiningToolPickaxe_V01"
+            },
+            {
+                "url": "assets/NPC/NPC Victoria.PNG",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "NPC Victoria"
+            },
+            {
+                "url": "assets/NPC/NpcBlaksmith.png",
+                "frameConfig": {
+                    "frameWidth": 128,
+                    "frameHeight": 128,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "NpcBlaksmith"
+            },
+            {
+                "url": "assets/Icon/NPCDialoguePopUpMainQuestSheet.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 16,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "NPCDialoguePopUpMainQuestSheet"
+            },
+            {
+                "url": "assets/Icon/NPCDialoguePopUpSheet.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 16,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "NPCDialoguePopUpSheet"
+            },
+            {
+                "url": "assets/NPC/NPCGuardian_V01.png",
+                "type": "image",
+                "key": "NPCGuardian_V"
+            },
+            {
+                "url": "assets/NPC/NPCGuardian_V01.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "NPCGuardian_V01"
+            },
+            {
+                "url": "assets/NPC/NPC Marcus miner/NPCMarcus_Mining_Fullset.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "NPCMarcus_Mining_Fullset"
+            },
+            {
+                "url": "assets/NPC/NPC Marcus miner/NPCMarcus_Walking_Fullset.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "NPCMarcus_Walking_Fullset"
+            },
+            {
+                "url": "assets/NPC/NPCMerchant.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "NPCMerchant"
+            },
+            {
+                "url": "assets/NPC/NPCOldManJack.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "NPCOldManJack"
+            },
+            {
+                "url": "assets/NPC/NPC Captan Rowan/Walk&Idle/Full set/NPCRowan_Fullset_Attack.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "NPCRowan_Fullset_Attack"
+            },
+            {
+                "url": "assets/NPC/NPC Captan Rowan/Walk&Idle/Full set/NPCRowan_Fullset_Walk_V01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "NPCRowan_Fullset_Walk_V01"
+            },
+            {
+                "url": "assets/NPC/NPC Captan Rowan/Draw/NPCRowan_Sword_Draw.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "NPCRowan_Sword_Draw"
+            },
+            {
+                "url": "assets/mapAssets/NPCShopStandMaerchant.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "NPCShopStandMaerchant"
+            },
+            {
+                "url": "assets/NPC/NPCShopStandMaerchant.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "NPCShopStandMaerchant_1"
+            },
+            {
+                "url": "assets/NPC/NPC Soilders/Walk/NPCSoildersFullsetWalking_V01.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "NPCSoildersFullsetWalking_V01"
+            },
+            {
+                "url": "assets/NPC/NPC Soilders/Walk/NPCSoildersFullWalking_V01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "NPCSoildersFullWalking_V01"
+            },
+            {
+                "url": "assets/NPC/NPC Soilders/Walk/NPC with spear/Attack/NPCSoilderSpearAttack_V01.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "NPCSoilderSpearAttack_V01"
+            },
+            {
+                "url": "assets/NPC/NPC Soilders/Walk/NPC with spear/Attack/NPCSoilderSpearFullsetAttack_V01.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "NPCSoilderSpearFullsetAttack_V01"
+            },
+            {
+                "url": "assets/NPC/NPC Soilders/Walk/NPC with spear/Walk/NPCSoilderSpearFullsetWalking_V01.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "NPCSoilderSpearFullsetWalking_V01"
+            },
+            {
+                "url": "assets/InventoryIcons/octopus.png",
+                "type": "image",
+                "key": "octopus"
+            },
+            {
+                "url": "assets/files/OldManJackName.png",
+                "type": "image",
+                "key": "OldManJackName"
+            },
+            {
+                "url": "assets/hud/Inventory/OpenInventory.png",
+                "type": "image",
+                "key": "OpenInventory"
+            },
+            {
+                "url": "assets/hud/Map/OpenMapIcon.png",
+                "type": "image",
+                "key": "OpenMapIcon"
+            },
+            {
+                "url": "assets/hud/Options/OptionMenuIcon.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "OptionMenuIcon"
+            },
+            {
+                "url": "assets/Mob/Enemies/DungenLVL1/Orc/Attack/OrcAttack_V01.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 96,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "OrcAttack_V01"
+            },
+            {
+                "url": "assets/Mob/Enemies/DungenLVL1/Orc/Death/OrcDeath_V01.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 96,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "OrcDeath_V01"
+            },
+            {
+                "url": "assets/Mob/Enemies/DungenLVL1/Orc/Hurt/OrcHurt_V01.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 96,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "OrcHurt_V01"
+            },
+            {
+                "url": "assets/Mob/Enemies/DungenLVL1/Orc/Idle/OrcIdle_V01.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 96,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "OrcIdle_V01"
+            },
+            {
+                "url": "assets/Mob/Enemies/DungenLVL1/Orc/Walking/OrcWalking_V01.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 96,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "OrcWalking_V01"
+            },
+            {
+                "url": "assets/Tree/PalmTreePattern.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "PalmTreePattern"
+            },
+            {
+                "url": "assets/InventoryIcons/pinenuts.png",
+                "type": "image",
+                "key": "pinenuts"
+            },
+            {
+                "url": "assets/Character/Fighting/Weapon/Player_Weapon_Sword_Fighting_V01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Player_Weapon_Sword_Fighting_V01"
+            },
+            {
+                "url": "assets/Character/Farming/BaseModel/PlayerAniFarming_V01.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "PlayerAniFarming_V01"
+            },
+            {
+                "url": "assets/Character/Farming/BaseModel/PlayerAniFarmingWatering_V01.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "PlayerAniFarmingWatering_V"
+            },
+            {
+                "url": "assets/Character/Farming/FullSet/PlayerAniFarmingWatering_V01.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "PlayerAniFarmingWatering_V01"
+            },
+            {
+                "url": "assets/Character/Farming/Clothing/PlayerClothingFarming_V01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "PlayerClothingFarming_V01"
+            },
+            {
+                "url": "assets/Character/Fishing/BasePlayer/PlayerFishing_V01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "PlayerFishing_V01"
+            },
+            {
+                "url": "assets/Character/Farming/Hair/PlayerHairFarming_V01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "PlayerHairFarming_V01"
+            },
+            {
+                "url": "assets/Character/Fishing/Hair/PlayerHairFishing_V01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "PlayerHairFishing_V01"
+            },
+            {
+                "url": "assets/Character/Walking/Hair/PlayerHairWalking_01.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "PlayerHairWalking_01"
+            },
+            {
+                "url": "assets/Character/Walking/Hair/PlayerHairWalking_02.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "PlayerHairWalking_02"
+            },
+            {
+                "url": "assets/Character/Walking/Hair/PlayerHairWalking_03.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "PlayerHairWalking_03"
+            },
+            {
+                "url": "assets/Character/Walking/BaseModel/PlayerWalking_V01.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "PlayerWalking_V01"
+            },
+            {
+                "url": "assets/Character/Walking/BaseModel/PlayerWalking_V02.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "PlayerWalking_V02"
+            },
+            {
+                "url": "assets/Character/Walking/BaseModel/PlayerWalking_V03.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "PlayerWalking_V03"
+            },
+            {
+                "url": "assets/hud/ProfileBackground.png",
+                "type": "image",
+                "key": "ProfileBackground"
+            },
+            {
+                "url": "assets/hud/Quest/Q_ShortKeyLabel.png",
+                "type": "image",
+                "key": "Q_ShortKeyLabel"
+            },
+            {
+                "url": "assets/hud/Quest/Quest_Book_Highligthed_V01.Png",
+                "type": "image",
+                "key": "Quest_Book_Highligthed_V01"
+            },
+            {
+                "url": "assets/hud/Quest/Quest_Book_V01.png",
+                "type": "image",
+                "key": "Quest_Book_V01"
+            },
+            {
+                "url": "assets/Ground tileset/RiverShallowSheet_v01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "RiverShallowSheet_v01"
+            },
+            {
+                "url": "assets/mapAssets/RoadStone.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "RoadStone"
+            },
+            {
+                "url": "assets/Mob/Enemies/DungenLVL1/RockMonster/Attak/RockAttack_V01.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "RockAttack_V01"
+            },
+            {
+                "url": "assets/Mob/Enemies/DungenLVL1/RockMonster/Death/RockDeath_V01.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 96,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "RockDeath_V01"
+            },
+            {
+                "url": "assets/Mob/Enemies/DungenLVL1/RockMonster/Damage taken/RockHurt_V01.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "RockHurt_V01"
+            },
+            {
+                "url": "assets/Mob/Enemies/DungenLVL1/RockMonster/Idle/RockIdle_v01.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "RockIdle_v01"
+            },
+            {
+                "url": "assets/Decoration/RockOnEmpty_V01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "RockOnEmpty_V01"
+            },
+            {
+                "url": "assets/Decoration/RockOnGrass_V01.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "RockOnGrass_V01"
+            },
+            {
+                "url": "assets/Decoration/RockOnGrass_V02.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "RockOnGrass_V02"
+            },
+            {
+                "url": "assets/Decoration/RockOnGrass_V03.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "RockOnGrass_V03"
+            },
+            {
+                "url": "assets/Decoration/RockOnGrass_V04.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "RockOnGrass_V04"
+            },
+            {
+                "url": "assets/Decoration/RockOnSand_V01.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "RockOnSand_V01"
+            },
+            {
+                "url": "assets/Decoration/RockOnSand_V02.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "RockOnSand_V02"
+            },
+            {
+                "url": "assets/Decoration/RockOnSand_V03.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "RockOnSand_V03"
+            },
+            {
+                "url": "assets/Decoration/RockOnSand_V04.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "RockOnSand_V04"
+            },
+            {
+                "url": "assets/Decoration/RockOnSand_V05.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "RockOnSand_V05"
+            },
+            {
+                "url": "assets/Decoration/RockOnSand_V06.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "RockOnSand_V06"
+            },
+            {
+                "url": "assets/Decoration/RockOnSand_V07.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "RockOnSand_V07"
+            },
+            {
+                "url": "assets/Decoration/RockOnSand_V09.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "RockOnSand_V09"
+            },
+            {
+                "url": "assets/Decoration/RocksOnGrass_V01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "RocksOnGrass_V01"
+            },
+            {
+                "url": "assets/Mob/Enemies/DungenLVL1/RockMonster/Walk/RockWalking_V01.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "RockWalking_V01"
+            },
+            {
+                "url": "assets/InventoryIcons/Salmon.png",
+                "type": "image",
+                "key": "Salmon"
+            },
+            {
+                "url": "assets/Building/SeaLevelBuildingLighthouse_v01.png",
+                "frameConfig": {
+                    "frameWidth": 256,
+                    "frameHeight": 704,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "SeaLevelBuildingLighthouse_v01"
+            },
+            {
+                "url": "assets/icons/SeedBag.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "SeedBag"
+            },
+            {
+                "url": "assets/hud/Options/SettingsIcon.png",
+                "frameConfig": {
+                    "frameWidth": 48,
+                    "frameHeight": 51,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "SettingsIcon"
+            },
+            {
+                "url": "assets/map/ShapetownBeach.json",
+                "type": "tilemapTiledJSON",
+                "key": "ShapetownBeach"
+            },
+            {
+                "url": "assets/Decoration/ShapetownBeach.png",
+                "frameConfig": {
+                    "frameWidth": 448,
+                    "frameHeight": 416,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "ShapetownBeach_1"
+            },
+            {
+                "url": "assets/map/ShapetownFarming.json",
+                "type": "tilemapTiledJSON",
+                "key": "ShapetownFarming"
+            },
+            {
+                "url": "assets/map/ShapetownFarmingMap.json",
+                "type": "tilemapTiledJSON",
+                "key": "ShapetownFarmingMap"
+            },
+            {
+                "url": "assets/map/ShapetownMineEntrance.json",
+                "type": "tilemapTiledJSON",
+                "key": "ShapetownMineEntrance"
+            },
+            {
+                "url": "assets/map/ShapetownSquare.json",
+                "type": "tilemapTiledJSON",
+                "key": "ShapetownSquare"
+            },
+            {
+                "url": "assets/InventoryIcons/ShellBeach_Icon.png",
+                "type": "image",
+                "key": "ShellBeach_Icon"
+            },
+            {
+                "url": "assets/Decoration/ShellBeach_V01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "ShellBeach_V01"
+            },
+            {
+                "url": "assets/Ground tileset/Ship_V01-Sheet.png",
+                "frameConfig": {
+                    "frameWidth": 512,
+                    "frameHeight": 384,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Ship_V01-Sheet"
+            },
+            {
+                "url": "assets/Decoration/ShipStranded_01.png",
+                "frameConfig": {
+                    "frameWidth": 512,
+                    "frameHeight": 288,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "ShipStranded_01"
+            },
+            {
+                "url": "assets/Interior/ShopInteriorObjects_.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "ShopInteriorObjects_"
+            },
+            {
+                "url": "assets/Ground tileset/SoilCorner_v02.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "SoilCorner_v02"
+            },
+            {
+                "url": "assets/Ground tileset/SoilCorners.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "SoilCorners"
+            },
+            {
+                "url": "assets/star.png",
+                "type": "image",
+                "key": "star"
+            },
+            {
+                "url": "assets/Ground tileset/StoneBridgeHorizontal_Prefab_V01.png",
+                "frameConfig": {
+                    "frameWidth": 160,
+                    "frameHeight": 128,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "StoneBridgeHorizontal_Prefab_V01"
+            },
+            {
+                "url": "assets/Ground tileset/StoneBridgeHorizontal_V01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "StoneBridgeHorizontal_V01"
+            },
+            {
+                "url": "assets/Ground tileset/StoneBridgeVertical_Prefab_V01.png",
+                "frameConfig": {
+                    "frameWidth": 128,
+                    "frameHeight": 160,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "StoneBridgeVertical_Prefab_V01"
+            },
+            {
+                "url": "assets/Ground tileset/StoneBridgeVertical_V01.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 224,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "StoneBridgeVertical_V01"
+            },
+            {
+                "url": "assets/Ground tileset/StoneFance..png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "StoneFance."
+            },
+            {
+                "url": "assets/InventoryIcons/sunfish.png",
+                "type": "image",
+                "key": "sunfish"
+            },
+            {
+                "url": "assets/Mob/Friendly/Swan_Sheet_V01.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Swan_Sheet_V01"
+            },
+            {
+                "url": "assets/mapAssets/Tent.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Tent"
+            },
+            {
+                "url": "assets/Building/Tent.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Tent_1"
+            },
+            {
+                "url": "assets/Building/Tent_V01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Tent_V01"
+            },
+            {
+                "url": "assets/Building/Tent_V02.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Tent_V02"
+            },
+            {
+                "url": "assets/Building/Tent_V03.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Tent_V03"
+            },
+            {
+                "url": "assets/Building/Tent_V04.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Tent_V04"
+            },
+            {
+                "url": "assets/Decoration/TorchBowl_V01.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "TorchBowl_V01"
+            },
+            {
+                "url": "assets/Decoration/TorchBowlRegular_V01.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "TorchBowlRegular_V01"
+            },
+            {
+                "url": "assets/Building/TownHall.png",
+                "frameConfig": {
+                    "frameWidth": 384,
+                    "frameHeight": 384,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "TownHall"
+            },
+            {
+                "url": "assets/Tree/Tree_v04.png",
+                "frameConfig": {
+                    "frameWidth": 256,
+                    "frameHeight": 256,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Tree_v"
+            },
+            {
+                "url": "assets/Tree/Tree_v014.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Tree_v_1"
+            },
+            {
+                "url": "assets/Tree/Tree_v02.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Tree_v_2"
+            },
+            {
+                "url": "assets/Tree/Tree_v08.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Tree_v_3"
+            },
+            {
+                "url": "assets/Tree/Tree_v09.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Tree_v_4"
+            },
+            {
+                "url": "assets/Tree/Tree_v01.png",
+                "frameConfig": {
+                    "frameWidth": 160,
+                    "frameHeight": 196,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Tree_v01"
+            },
+            {
+                "url": "assets/mapAssets/Tree_v014.png",
+                "frameConfig": {
+                    "frameWidth": 128,
+                    "frameHeight": 128,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Tree_v014"
+            },
+            {
+                "url": "assets/mapAssets/Tree_v02.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 128,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Tree_v02"
+            },
+            {
+                "url": "assets/Tree/Tree_v03.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 96,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Tree_v03"
+            },
+            {
+                "url": "assets/mapAssets/Tree_v04.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Tree_v04"
+            },
+            {
+                "url": "assets/Tree/Tree_v05.png",
+                "frameConfig": {
+                    "frameWidth": 128,
+                    "frameHeight": 128,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Tree_v05"
+            },
+            {
+                "url": "assets/Tree/Tree_v06.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 128,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Tree_v06"
+            },
+            {
+                "url": "assets/mapAssets/Tree_v08.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 128,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Tree_v08"
+            },
+            {
+                "url": "assets/mapAssets/Tree_v09.png",
+                "frameConfig": {
+                    "frameWidth": 64,
+                    "frameHeight": 96,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Tree_v09"
+            },
+            {
+                "url": "assets/Building/TreeHouse.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "TreeHouse"
+            },
+            {
+                "url": "assets/Tree/TreeNaked_V01.png",
+                "frameConfig": {
+                    "frameWidth": 160,
+                    "frameHeight": 192,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "TreeNaked_V01"
+            },
+            {
+                "url": "assets/Tree/TreeNaked_V02.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 192,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "TreeNaked_V02"
+            },
+            {
+                "url": "assets/Tree/TreeNaked_V03.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 192,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "TreeNaked_V03"
+            },
+            {
+                "url": "assets/Tree/TreePalmSheet_01.png",
+                "frameConfig": {
+                    "frameWidth": 128,
+                    "frameHeight": 192,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "TreePalmSheet_01"
+            },
+            {
+                "url": "assets/Tree/TreePalmSheet_02.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 160,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "TreePalmSheet_02"
+            },
+            {
+                "url": "assets/Tree/TreePalmSheet_03.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 160,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "TreePalmSheet_03"
+            },
+            {
+                "url": "assets/Tree/TreePatteren.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "TreePatteren"
+            },
+            {
+                "url": "assets/mapAssets/TreePatteren.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "TreePatteren_1"
+            },
+            {
+                "url": "assets/hud/Options/TrophyIcon.png",
+                "frameConfig": {
+                    "frameWidth": 48,
+                    "frameHeight": 51,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "TrophyIcon"
+            },
+            {
+                "url": "assets/InventoryIcons/truffile.png",
+                "type": "image",
+                "key": "truffile"
+            },
+            {
+                "url": "assets/InventoryIcons/Tune.png",
+                "type": "image",
+                "key": "Tune"
+            },
+            {
+                "url": "assets/map/TutorialMap.json",
+                "type": "tilemapTiledJSON",
+                "key": "TutorialMap"
+            },
+            {
+                "url": "assets/mapAssets/TutorliarNPCHouse.png",
+                "frameConfig": {
+                    "frameWidth": 128,
+                    "frameHeight": 160,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "TutorliarNPCHouse"
+            },
+            {
+                "url": "assets/Building/WatchtowerBack_01.png",
+                "frameConfig": {
+                    "frameWidth": 128,
+                    "frameHeight": 224,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "WatchtowerBack_01"
+            },
+            {
+                "url": "assets/Building/WatchtowerBackRegular_V01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "WatchtowerBackRegular_V01"
+            },
+            {
+                "url": "assets/Building/WatchtowerFront_01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "WatchtowerFront_01"
+            },
+            {
+                "url": "assets/Building/WatchtowerFrontRegular_V01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "WatchtowerFrontRegular_V01"
+            },
+            {
+                "url": "assets/Ground tileset/Waterfall_V01.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Waterfall_V01"
+            },
+            {
+                "url": "assets/Building/WaterFountain.png",
+                "frameConfig": {
+                    "frameWidth": 128,
+                    "frameHeight": 160,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "WaterFountain"
+            },
+            {
+                "url": "assets/Building/Waterwell.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 128,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Waterwell"
+            },
+            {
+                "url": "assets/Building/WaterwellRoof.png",
+                "frameConfig": {
+                    "frameWidth": 96,
+                    "frameHeight": 96,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "WaterwellRoof"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false,
+        "visible": true
+    }
+}

@@ -1,0 +1,669 @@
+{
+    "id": "4d2fb1bf-853f-4c5d-adbc-4126a1d17a5d",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapWidth": 2560,
+        "snapHeight": 1920,
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "ShapeTownBeachMapScene",
+        "borderWidth": 1024,
+        "borderHeight": 768
+    },
+    "displayList": [
+        {
+            "type": "TilemapLayer",
+            "id": "05447995-98a7-4bd5-94ad-3ffe4e53aa2e",
+            "label": "sand_1",
+            "scope": "CLASS",
+            "tilemapId": "a3130f0d-8456-4f2b-9938-8fa93589c815",
+            "layerName": "Sand",
+            "tilesets": [
+                "BeachWaterSheet_v01",
+                "BeachDeckSheet",
+                "Lighthouse_v01",
+                "ShipStranded_01",
+                "BoatStranded",
+                "PalmTreePattern",
+                "TreePalmSheet_01",
+                "TreePalmSheet_03",
+                "TreePalmSheet_02",
+                "CapitansCabin",
+                "ShellBeach_V01"
+            ]
+        },
+        {
+            "prefabId": "252c8648-7f44-40d2-9f1b-c2286de3897e",
+            "id": "471b0736-eac9-4207-af58-867d37bb1ccb",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "beachDeckPrefab",
+            "scope": "CLASS",
+            "x": 1508,
+            "y": 952
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "bbc992a7-e8e2-4485-81cc-72f723cfc7f8",
+            "label": "boat_stranded_1",
+            "scope": "CLASS",
+            "tilemapId": "a3130f0d-8456-4f2b-9938-8fa93589c815",
+            "layerName": "boat stranded",
+            "tilesets": [
+                "BeachWaterSheet_v01",
+                "BeachDeckSheet",
+                "Lighthouse_v01",
+                "ShipStranded_01",
+                "BoatStranded",
+                "PalmTreePattern",
+                "TreePalmSheet_01",
+                "TreePalmSheet_03",
+                "TreePalmSheet_02",
+                "CapitansCabin",
+                "ShellBeach_V01"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "4296f0a5-cbfc-46a6-8be8-34e475d16d49",
+            "label": "cabin_1",
+            "scope": "CLASS",
+            "tilemapId": "a3130f0d-8456-4f2b-9938-8fa93589c815",
+            "layerName": "Cabin",
+            "tilesets": [
+                "BeachWaterSheet_v01",
+                "BeachDeckSheet",
+                "Lighthouse_v01",
+                "ShipStranded_01",
+                "BoatStranded",
+                "PalmTreePattern",
+                "TreePalmSheet_01",
+                "TreePalmSheet_03",
+                "TreePalmSheet_02",
+                "CapitansCabin",
+                "ShellBeach_V01"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "bd813595-4209-4512-b2b1-8b8dec9d532f",
+            "label": "grass_1",
+            "scope": "CLASS",
+            "tilemapId": "a3130f0d-8456-4f2b-9938-8fa93589c815",
+            "layerName": "grass",
+            "tilesets": [
+                "BeachWaterSheet_v01",
+                "BeachDeckSheet",
+                "Lighthouse_v01",
+                "ShipStranded_01",
+                "BoatStranded",
+                "PalmTreePattern",
+                "TreePalmSheet_01",
+                "TreePalmSheet_03",
+                "TreePalmSheet_02",
+                "CapitansCabin",
+                "ShellBeach_V01"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "e9475884-b6b8-49a8-95b3-e0d8a7f4180b",
+            "label": "tree_1",
+            "scope": "CLASS",
+            "tilemapId": "a3130f0d-8456-4f2b-9938-8fa93589c815",
+            "layerName": "tree",
+            "tilesets": [
+                "BeachWaterSheet_v01",
+                "BeachDeckSheet",
+                "Lighthouse_v01",
+                "ShipStranded_01",
+                "BoatStranded",
+                "PalmTreePattern",
+                "TreePalmSheet_01",
+                "TreePalmSheet_03",
+                "TreePalmSheet_02",
+                "CapitansCabin",
+                "ShellBeach_V01"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "c0792e2e-46f5-4530-b6ec-985fab0ae730",
+            "label": "stonesoad_1",
+            "scope": "CLASS",
+            "tilemapId": "a3130f0d-8456-4f2b-9938-8fa93589c815",
+            "layerName": "stonesoad",
+            "tilesets": [
+                "BeachWaterSheet_v01",
+                "BeachDeckSheet",
+                "Lighthouse_v01",
+                "ShipStranded_01",
+                "BoatStranded",
+                "PalmTreePattern",
+                "TreePalmSheet_01",
+                "TreePalmSheet_03",
+                "TreePalmSheet_02",
+                "CapitansCabin",
+                "ShellBeach_V01"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "44be98ad-f0b7-465e-a68f-af39786c10c2",
+            "label": "rock_decor_1",
+            "scope": "CLASS",
+            "tilemapId": "a3130f0d-8456-4f2b-9938-8fa93589c815",
+            "layerName": "Rock decor",
+            "tilesets": [
+                "BeachWaterSheet_v01",
+                "BeachDeckSheet",
+                "Lighthouse_v01",
+                "ShipStranded_01",
+                "BoatStranded",
+                "PalmTreePattern",
+                "TreePalmSheet_01",
+                "TreePalmSheet_03",
+                "TreePalmSheet_02",
+                "CapitansCabin",
+                "ShellBeach_V01"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "afa447a9-a008-4bcb-bda9-9866e950a722",
+            "label": "blocker",
+            "scope": "CLASS",
+            "tilemapId": "a3130f0d-8456-4f2b-9938-8fa93589c815",
+            "layerName": "blocker1",
+            "tilesets": [
+                "BeachWaterSheet_v01",
+                "BeachDeckSheet",
+                "Lighthouse_v01",
+                "ShipStranded_01",
+                "BoatStranded",
+                "PalmTreePattern",
+                "TreePalmSheet_01",
+                "TreePalmSheet_03",
+                "TreePalmSheet_02",
+                "CapitansCabin",
+                "ShellBeach_V01"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "65188a17-c072-44c7-8638-ff2bd367776a",
+            "label": "blocker_1",
+            "scope": "CLASS",
+            "tilemapId": "a3130f0d-8456-4f2b-9938-8fa93589c815",
+            "layerName": "blocker2",
+            "tilesets": [
+                "BeachWaterSheet_v01",
+                "BeachDeckSheet",
+                "Lighthouse_v01",
+                "ShipStranded_01",
+                "BoatStranded",
+                "PalmTreePattern",
+                "TreePalmSheet_01",
+                "TreePalmSheet_03",
+                "TreePalmSheet_02",
+                "CapitansCabin",
+                "ShellBeach_V01"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "15c029be-33e4-4476-b684-7a2f4d5c545d",
+            "label": "blocker_2",
+            "scope": "CLASS",
+            "tilemapId": "a3130f0d-8456-4f2b-9938-8fa93589c815",
+            "layerName": "blocker3",
+            "tilesets": [
+                "BeachWaterSheet_v01",
+                "BeachDeckSheet",
+                "Lighthouse_v01",
+                "ShipStranded_01",
+                "BoatStranded",
+                "PalmTreePattern",
+                "TreePalmSheet_01",
+                "TreePalmSheet_03",
+                "TreePalmSheet_02",
+                "CapitansCabin",
+                "ShellBeach_V01"
+            ]
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "81fbd3aa-fce1-46d2-95d1-a9496f16e5d1",
+            "label": "blocker_3",
+            "scope": "CLASS",
+            "tilemapId": "a3130f0d-8456-4f2b-9938-8fa93589c815",
+            "layerName": "blocker4",
+            "tilesets": [
+                "BeachWaterSheet_v01",
+                "BeachDeckSheet",
+                "Lighthouse_v01",
+                "ShipStranded_01",
+                "BoatStranded",
+                "PalmTreePattern",
+                "TreePalmSheet_01",
+                "TreePalmSheet_03",
+                "TreePalmSheet_02",
+                "CapitansCabin",
+                "ShellBeach_V01"
+            ]
+        },
+        {
+            "prefabId": "f7980c66-1efa-4178-a1ab-2857ad730e33",
+            "id": "dcc4a27f-6eed-488b-b5f6-51fbbe2229c7",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "beachHousePrefab",
+            "scope": "CLASS",
+            "x": 1415,
+            "y": 435
+        },
+        {
+            "prefabId": "69dcb358-e67d-4ee2-9f1e-98cc490b6341",
+            "id": "153d1ae7-9929-46a2-a0b4-a71f3780ca77",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "playerPrefab",
+            "scope": "CLASS",
+            "x": 1500,
+            "y": 229
+        },
+        {
+            "prefabId": "5aebe3a1-c3ca-4c4d-8c06-25a73ca34ef3",
+            "id": "3244d574-d21f-4afa-8444-dc673d3e2935",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "seaLevelBuildingLighthousePrefab",
+            "scope": "CLASS",
+            "x": 800,
+            "y": 1130
+        },
+        {
+            "prefabId": "93169918-71ac-4559-bb2b-f0c83006ec31",
+            "id": "e1ed3916-9a83-4ac1-8b11-1c8cff708976",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "beachTree1Prefab_1",
+            "scope": "CLASS",
+            "x": 636,
+            "y": 138
+        },
+        {
+            "prefabId": "93169918-71ac-4559-bb2b-f0c83006ec31",
+            "id": "55be7891-e12c-4b05-91be-b0ffc818174a",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "beachTree1Prefab_2",
+            "scope": "CLASS",
+            "x": 1049,
+            "y": 123
+        },
+        {
+            "prefabId": "93169918-71ac-4559-bb2b-f0c83006ec31",
+            "id": "d2364e6a-44b9-48ae-9d9b-0b037a234a66",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "beachTree1Prefab_3",
+            "scope": "CLASS",
+            "x": 2044,
+            "y": 116
+        },
+        {
+            "prefabId": "dd84e278-c9ad-4953-a3de-7c0f684a339b",
+            "id": "4a905c01-055c-4fa7-a7a3-fa8ce86e7ae6",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "beachTree3Prefab_1",
+            "scope": "CLASS",
+            "x": 1874,
+            "y": 155
+        },
+        {
+            "prefabId": "dd84e278-c9ad-4953-a3de-7c0f684a339b",
+            "id": "17863e2e-cbe9-4970-9447-c49669313f48",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "beachTree3Prefab_2",
+            "scope": "CLASS",
+            "x": 2184,
+            "y": 144
+        },
+        {
+            "prefabId": "dd84e278-c9ad-4953-a3de-7c0f684a339b",
+            "id": "3283628d-406c-4bff-9d87-0b8a5931c741",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "beachTree3Prefab_3",
+            "scope": "CLASS",
+            "x": 1399,
+            "y": 165
+        },
+        {
+            "prefabId": "4c568c69-e878-43b5-b540-202e3822612e",
+            "id": "26064a97-4626-48fe-b4a2-7d1262983a01",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "beachTree2Prefab_1",
+            "scope": "CLASS",
+            "x": 423,
+            "y": 110
+        },
+        {
+            "prefabId": "4c568c69-e878-43b5-b540-202e3822612e",
+            "id": "88d79076-2ca4-4c90-8a1d-3ef285d45f11",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "beachTree2Prefab_2",
+            "scope": "CLASS",
+            "x": 502,
+            "y": 180
+        },
+        {
+            "prefabId": "4c568c69-e878-43b5-b540-202e3822612e",
+            "id": "d0c6ba4f-5f10-45ac-a557-0c6613b2ea0f",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "beachTree2Prefab_3",
+            "scope": "CLASS",
+            "x": 706,
+            "y": 131
+        },
+        {
+            "prefabId": "4c568c69-e878-43b5-b540-202e3822612e",
+            "id": "a1a3f16f-3b57-4408-85dc-32eac4d9f0fa",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "beachTree2Prefab_4",
+            "scope": "CLASS",
+            "x": 1208,
+            "y": 150
+        },
+        {
+            "prefabId": "4c568c69-e878-43b5-b540-202e3822612e",
+            "id": "432f3108-06b4-4e75-92c4-f35d40ae960e",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "beachTree2Prefab_5",
+            "scope": "CLASS",
+            "x": 922,
+            "y": 161
+        },
+        {
+            "prefabId": "4c568c69-e878-43b5-b540-202e3822612e",
+            "id": "85af5c14-c21c-4ab1-b4f8-e4377754d510",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "beachTree2Prefab_6",
+            "scope": "CLASS",
+            "x": 774,
+            "y": 158
+        },
+        {
+            "prefabId": "93169918-71ac-4559-bb2b-f0c83006ec31",
+            "id": "1611449a-61ed-4839-9853-271bfa873b98",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "beachTree1Prefab_4",
+            "scope": "CLASS",
+            "x": 851,
+            "y": 176
+        },
+        {
+            "prefabId": "6b56ea8b-4416-462d-9fae-6c7092aca651",
+            "id": "e72f7e83-5d51-4eaa-94e7-8ee1fcb393dc",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "squareShipPrefab",
+            "scope": "CLASS",
+            "x": 300,
+            "y": 389
+        },
+        {
+            "type": "Sprite",
+            "id": "0667580a-1981-4d57-a80b-0e4a690e3649",
+            "label": "sceneTile",
+            "scope": "CLASS",
+            "texture": {
+                "key": "Fruitbushes_V01",
+                "frame": 23
+            },
+            "x": 1600,
+            "scaleX": 10.306994636480235,
+            "ArcadeComponent.active": true,
+            "allowGravity": false,
+            "body.width": 32,
+            "body.height": 200
+        },
+        {
+            "prefabId": "d9cd0bbb-a8fc-4188-bf3b-a1043ac8444d",
+            "id": "61f50387-70c9-451d-b6f5-02e7727e9ea5",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "openInventory",
+            "scope": "CLASS",
+            "x": 1837,
+            "y": 1405
+        },
+        {
+            "prefabId": "f091d24d-337a-4363-a9ac-c2e296f13378",
+            "id": "3a134502-dc9c-48d3-897d-fa889ec5e2f7",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "alertPrefab",
+            "scope": "CLASS",
+            "x": 87,
+            "y": 54
+        },
+        {
+            "prefabId": "511211d3-4280-4710-b0e3-c823277bb8e4",
+            "id": "0ffffc03-1646-4ffe-9393-e4ea667a8ab7",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "openMapPrefab",
+            "scope": "CLASS",
+            "x": 1897,
+            "y": 1397
+        },
+        {
+            "prefabId": "d8dc356c-86cf-4507-9edc-dbc8a481f4c0",
+            "id": "35560a91-8dcc-4455-8590-50908532b76c",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "messagePrefab",
+            "scope": "CLASS",
+            "x": 183,
+            "y": 145
+        },
+        {
+            "prefabId": "05640e95-1b2a-411d-bbb2-3af441962740",
+            "id": "705ffa3c-2076-4a02-a4a0-bfb3ea917da2",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "profilePrefab",
+            "scope": "CLASS",
+            "x": 110,
+            "y": 148
+        },
+        {
+            "prefabId": "9be122bc-3a2e-4c06-a98e-b5754929a6d2",
+            "id": "dfab6cc0-5de8-4b33-992d-5828df426eee",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "newItemHudPrefab",
+            "scope": "CLASS",
+            "x": 1266,
+            "y": 1636
+        },
+        {
+            "prefabId": "2e844f73-6bf0-4cf6-98c7-64322f7616d0",
+            "id": "1abb6d51-1f7f-40a7-ab33-0f849573c985",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "minimapPrefab",
+            "scope": "CLASS",
+            "x": 2338,
+            "y": 211
+        },
+        {
+            "prefabId": "e1ab5904-77e5-46c1-9532-c3d7be0e73be",
+            "id": "7f0e3b75-ea2a-4a4d-9ec0-3b9c341bcb3e",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "optionsListPrefab",
+            "scope": "CLASS",
+            "x": 2408,
+            "y": 156
+        },
+        {
+            "prefabId": "2c30c124-0411-4631-af99-2308825ee3ac",
+            "id": "9b11f269-bf08-49f1-a06d-e760c707e16b",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "openQuest",
+            "scope": "CLASS",
+            "x": 504,
+            "y": 1460
+        },
+        {
+            "type": "TilemapLayer",
+            "id": "b3cef5b8-0b53-4ac7-9728-8f7a4b441f75",
+            "label": "shellAreas_1",
+            "scope": "CLASS",
+            "tilemapId": "a3130f0d-8456-4f2b-9938-8fa93589c815",
+            "layerName": "shellAreas_1",
+            "tilesets": [
+                "BeachWaterSheet_v01",
+                "BeachDeckSheet",
+                "Lighthouse_v01",
+                "ShipStranded_01",
+                "BoatStranded",
+                "PalmTreePattern",
+                "TreePalmSheet_01",
+                "TreePalmSheet_03",
+                "TreePalmSheet_02",
+                "CapitansCabin",
+                "ShellBeach_V01"
+            ]
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "a3130f0d-8456-4f2b-9938-8fa93589c815",
+            "type": "Tilemap",
+            "label": "shapetownBeach",
+            "key": "ShapetownBeach",
+            "tilesets": [
+                {
+                    "name": "BeachWaterSheet_v01",
+                    "imageKey": "BeachWaterSheet_v01"
+                },
+                {
+                    "name": "BeachDeckSheet",
+                    "imageKey": "BeachDeckSheet"
+                },
+                {
+                    "name": "Lighthouse_v01",
+                    "imageKey": "Lighthouse_v01"
+                },
+                {
+                    "name": "ShipStranded_01",
+                    "imageKey": "ShipStranded_01"
+                },
+                {
+                    "name": "BoatStranded",
+                    "imageKey": "BoatStranded"
+                },
+                {
+                    "name": "PalmTreePattern",
+                    "imageKey": "PalmTreePattern"
+                },
+                {
+                    "name": "TreePalmSheet_01",
+                    "imageKey": "TreePalmSheet_01"
+                },
+                {
+                    "name": "TreePalmSheet_03",
+                    "imageKey": "TreePalmSheet_03"
+                },
+                {
+                    "name": "TreePalmSheet_02",
+                    "imageKey": "TreePalmSheet_02"
+                },
+                {
+                    "name": "CapitansCabin",
+                    "imageKey": "CapitansCabin"
+                },
+                {
+                    "name": "ShellBeach_V01",
+                    "imageKey": "ShellBeach_V01"
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}
