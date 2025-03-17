@@ -277,28 +277,6 @@ const MERCHANT_INVENTORIES = {
   
   [MERCHANT_TYPES.BLACKSMITH]: [
     {
-      id: 'ToolWateringCan',
-      name: 'ToolWateringCan',
-      icon: 'IconToolWateringCan',
-      iconPath: '/assets/InventoryIcons/IconToolWateringCan.png',
-      quantity: 1,
-      buyPrice: 800,
-      sellPrice: 400,
-      description: 'A basic sword',
-      category: 'weapons'
-    },
-    {
-      id: 'ToolHoe',
-      name: 'ToolHoe',
-      icon: 'IconToolHoe',
-      iconPath: '/assets/InventoryIcons/IconToolHoe.png',
-      quantity: 1,
-      buyPrice: 800,
-      sellPrice: 400,
-      description: 'A basic sword',
-      category: 'weapons'
-    },
-    {
       id: 'IronSword',
       name: 'Iron Sword',
       icon: 'IconIronSword',
