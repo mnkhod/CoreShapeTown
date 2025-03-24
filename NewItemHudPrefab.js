@@ -566,7 +566,7 @@ export default class NewItemHudPrefab extends Phaser.GameObjects.Container {
 	        const offsetY = 300; 
 
 	        this.cursorIcon.x = (pointer.x * scale) + offsetX;
-	        this.cursorIcon.y = (pointer.y * scale) + offsetY;
+	        this.cursorIcon.y = (pointer.y * scale) + offsetY - 40;
 	    }
 	}
 
