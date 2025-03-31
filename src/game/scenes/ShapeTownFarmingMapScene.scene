@@ -735,6 +735,7 @@
                 "y"
             ],
             "label": "openQuest",
+            "scope": "CLASS",
             "x": 307,
             "y": 1317
         },

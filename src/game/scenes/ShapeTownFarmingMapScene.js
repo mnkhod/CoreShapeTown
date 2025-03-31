@@ -48,8 +48,6 @@ export default class ShapeTownFarmingMapScene extends Phaser.Scene {
 		// Write your code here.
 		this.reactEvent = EventBus
 		this.achievements = {};
-
-		const counter = 0;
 		/* END-USER-CTR-CODE */
 	}
 
@@ -82,7 +80,7 @@ export default class ShapeTownFarmingMapScene extends Phaser.Scene {
 		const bG_Grass_1 = shapetownFarmingMap.createLayer("BG/Grass", ["GroundTileset_V02"], 0, 0);
 
 		// bG_Cliff_1
-		const bG_Cliff_1 = shapetownFarmingMap.createLayer("BG/Cliff", ["GroundTileset_V02", "RockOnGrass_V02"], 0, 0);
+		const bG_Cliff_1 = shapetownFarmingMap.createLayer("BG/Cliff", ["GroundTileset_V02","RockOnGrass_V02"], 0, 0);
 
 		// bG_tall_grass_1
 		const bG_tall_grass_1 = shapetownFarmingMap.createLayer("BG/tall grass", ["GroundTileset_V02"], 0, 0);
@@ -94,7 +92,7 @@ export default class ShapeTownFarmingMapScene extends Phaser.Scene {
 		const bG_ramp_1 = shapetownFarmingMap.createLayer("BG/ramp", [], 0, 0);
 
 		// lake_lake_1
-		const lake_lake_1 = shapetownFarmingMap.createLayer("Lake/lake", ["LakeBorderAni", "LakeBorderCornerAni", "Fishes_3_32x32"], 0, 0);
+		const lake_lake_1 = shapetownFarmingMap.createLayer("Lake/lake", ["LakeBorderAni","LakeBorderCornerAni","Fishes_3_32x32"], 0, 0);
 
 		// tree_border_Fence_1
 		const tree_border_Fence_1 = shapetownFarmingMap.createLayer("tree border/Fence", ["RoadStone"], 0, 0);
@@ -440,6 +438,7 @@ export default class ShapeTownFarmingMapScene extends Phaser.Scene {
 		this.optionsListPrefab = optionsListPrefab;
 		this.frogFrog_Sheet = frogFrog_Sheet;
 		this.minimapPrefab = minimapPrefab;
+		this.openQuest = openQuest;
 		this.harvest_1 = harvest_1;
 		this.swanSwan_Sheet = swanSwan_Sheet;
 		this.swanSwan_Sheet_1 = swanSwan_Sheet_1;
@@ -550,6 +549,8 @@ export default class ShapeTownFarmingMapScene extends Phaser.Scene {
 	frogFrog_Sheet;
 	/** @type {MinimapPrefab} */
 	minimapPrefab;
+	/** @type {OpenQuest} */
+	openQuest;
 	/** @type {Phaser.Tilemaps.TilemapLayer} */
 	harvest_1;
 	/** @type {Phaser.GameObjects.Sprite} */
@@ -748,7 +749,7 @@ export default class ShapeTownFarmingMapScene extends Phaser.Scene {
 		this.openMapPrefab?.setDepth(90);
 		this.optionsListPrefab?.setDepth(90);
 		this.playerPrefab?.setDepth(90);
-		this.openQuestPrefab?.setDepth(90);
+		this.openQuest?.setDepth(90);
 	}
 
 	create() {
@@ -916,7 +917,6 @@ export default class ShapeTownFarmingMapScene extends Phaser.Scene {
 			} else {
 				this.playerPrefab.x -= 200;
 				this.alertPrefab.alert("First Quest is not over, please finish your quest and try again");
-				counter++;
 			}
 		});
 		this.initInventorySystem();

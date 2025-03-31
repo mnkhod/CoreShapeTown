@@ -19,14 +19,14 @@ const CROP_DATA = {
         seedAsset: "crops-seed bags-carrot",
         displayName: "Carrot"
     },
-    "BOK_CHOK": {
+    "BOKCHOK": {
         type: "Vegetable",
         seedPrice: 40,
         sellingPrice: 80,
         growthDays: 3,
         growthMinutes: 48,
         tier: "Uncommon",
-        spritesheet: "Crop_Cycle_BokChok",
+        spritesheet: "Crop_Cycle_Bokchok",
         seedFrame: 0,
         growthFrames: [1, 2, 3, 4],
         harvestFrame: 6,

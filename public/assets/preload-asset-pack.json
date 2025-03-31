@@ -521,7 +521,7 @@
                 "key": "CityHouses_v02"
             },
             {
-                "url": "assets/Crops/Crops Growt Cycle/Crop_Cycle_BokChok.png",
+                "url": "assets/Crops/Crops Growt Cycle/Crop_Cycle_Bokchok.png",
                 "frameConfig": {
                     "frameWidth": 32,
                     "frameHeight": 32,
@@ -531,7 +531,7 @@
                     "margin": 0
                 },
                 "type": "spritesheet",
-                "key": "Crop_Cycle_BokChok"
+                "key": "Crop_Cycle_Bokchok"
             },
             {
                 "url": "assets/Crops/Crops Growt Cycle/Crop_Cycle_Broccoli.png",
@@ -754,14 +754,14 @@
                 "key": "crops-blueberry_1"
             },
             {
-                "url": "assets/Crops/Icons/Normal Icon/Crops/crops-bok chok.png",
-                "type": "image",
-                "key": "crops-bok chok"
-            },
-            {
                 "url": "assets/Crops/Icons/Highlighted/Crops/crops-bok chok_01.png",
                 "type": "image",
                 "key": "crops-bok chok_01"
+            },
+            {
+                "url": "assets/Crops/Icons/Normal Icon/Crops/crops-bokchok.png",
+                "type": "image",
+                "key": "crops-bokchok"
             },
             {
                 "url": "assets/Crops/Icons/Normal Icon/Crops/crops-broccoli.png",
@@ -804,9 +804,9 @@
                 "key": "crops-chili_01"
             },
             {
-                "url": "assets/Crops/Icons/Normal Icon/Fruit/crops-coffee bean.png",
+                "url": "assets/Crops/Icons/Normal Icon/Fruit/crops-coffee.png",
                 "type": "image",
-                "key": "crops-coffee bean"
+                "key": "crops-coffee"
             },
             {
                 "url": "assets/Crops/Icons/Highlighted/Fruit/crops-coffee bean_01.png",
@@ -934,9 +934,9 @@
                 "key": "crops-seed bags-blueberry"
             },
             {
-                "url": "assets/Crops/Icons/seed sack/crops/crops-seed bags-bok choy.png",
+                "url": "assets/Crops/Icons/seed sack/crops/crops-seed bags-bokchok.png",
                 "type": "image",
-                "key": "crops-seed bags-bok choy"
+                "key": "crops-seed bags-bokchok"
             },
             {
                 "url": "assets/Crops/Icons/seed sack/crops/crops-seed bags-broccoli.png",
@@ -959,9 +959,9 @@
                 "key": "crops-seed bags-chili"
             },
             {
-                "url": "assets/Crops/Icons/seed sack/Fruit/crops-seed bags-coffee bean.png",
+                "url": "assets/Crops/Icons/seed sack/Fruit/crops-seed bags-coffee.png",
                 "type": "image",
-                "key": "crops-seed bags-coffee bean"
+                "key": "crops-seed bags-coffee"
             },
             {
                 "url": "assets/Crops/Icons/seed sack/crops/crops-seed bags-corn.png",

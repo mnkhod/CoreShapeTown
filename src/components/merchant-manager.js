@@ -7,10 +7,10 @@ export const MERCHANT_TYPES = {
 const MERCHANT_INVENTORIES = {
   [MERCHANT_TYPES.FARMER]: [
     {
-      id: 'seed_bok-choy',
-      name: 'Bok choy seeds',
-      icon: 'crops-seed bags-bok choy',
-      iconPath: '/assets/InventoryIcons/crops-seed bags-bok choy.png',
+      id: 'seed_bokchok',
+      name: 'Bok chok seeds',
+      icon: 'crops-seed bags-bokchok',
+      iconPath: '/assets/InventoryIcons/crops-seed bags-bokchok.png',
       quantity: 999,
       buyPrice: 40,
       sellPrice: 95,
@@ -183,10 +183,10 @@ const MERCHANT_INVENTORIES = {
       category: 'seeds'
     },
     {
-      id: 'seed_coffee_bean',
+      id: 'seed_coffee',
       name: 'Coffee Bean seeds',
-      icon: 'crops-seed bags-coffee bean',
-      iconPath: '/assets/InventoryIcons/crops-seed bags-coffee bean.png',
+      icon: 'crops-seed bags-coffee',
+      iconPath: '/assets/InventoryIcons/crops-seed bags-coffee.png',
       quantity: 999,
       buyPrice: 200,
       sellPrice: 500,
