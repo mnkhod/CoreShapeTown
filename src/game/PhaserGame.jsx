@@ -147,8 +147,30 @@ export const PhaserGame = forwardRef(function PhaserGame({ currentActiveScene, s
     }, [showModal]);
 
     useEffect(() => {
+        const handleSeedEncyclopediaModal = (modalData) => {
+            console.log('PhaserGame received encyclopedia request:', modalData);
+            
+            if (sceneManager.current && sceneManager.current.activeScene) {
+                sceneManager.current.saveInventoryFromScene(sceneManager.current.activeScene);
+            }
+            
+            const phaserInstance = modalData?.phaserInstance || 
+                                 (sceneManager.current?.activeScene?.newItemHudPrefab);
+            
+            if (phaserInstance) {
+                showModal("SEEDENCYCLOPEDIA", { phaserInstance });
+            } else {
+                console.error('No valid instance found for Seed Encyclopedia');
+            }
+        };
+        
+        EventBus.on('open-seed-encyclopedia', handleSeedEncyclopediaModal);
+        
+        return () => EventBus.removeListener('open-seed-encyclopedia', handleSeedEncyclopediaModal);
+    }, [showModal]);
+
+    useEffect(() => {
         const handleShopSellModal = (merchantPrefab) => {
-            // Save inventory state before showing shop modal
             if (sceneManager.current && sceneManager.current.activeScene) {
                 sceneManager.current.saveInventoryFromScene(sceneManager.current.activeScene);
             }

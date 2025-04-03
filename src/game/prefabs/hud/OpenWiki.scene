@@ -1,0 +1,91 @@
+{
+    "id": "3c6e9e95-0493-408e-8346-57059408f704",
+    "sceneType": "PREFAB",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1024,
+        "borderHeight": 768
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "7deec98d-dc8d-4504-a25a-9380edae6218",
+            "label": "container_1",
+            "blendMode": -1,
+            "x": 89,
+            "y": 24,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "7ef0c2dd-b570-450f-8739-c0d1d03e1870",
+                    "label": "openWikiHovered",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "Wiki_Click_V01"
+                    },
+                    "x": 12,
+                    "y": 12,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "27ef422f-bd45-4cc7-b3fa-02bd08813f57",
+                    "label": "openWiki",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "Wiki_Normal_V01"
+                    },
+                    "x": 12,
+                    "y": 12,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                },
+                {
+                    "type": "Image",
+                    "id": "87a1b12d-2c8d-4562-aef8-35efbfc03eef",
+                    "label": "Key_I",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "ShotCut_Buttom_Wiki"
+                    },
+                    "x": 23,
+                    "y": 22,
+                    "scaleX": 0.5,
+                    "scaleY": 0.5
+                }
+            ]
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "d29baca1-80b5-4352-a693-e1475d591928",
+            "type": "Keyboard.Key",
+            "label": "keyboard_I",
+            "keyCode": "I"
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    },
+    "prefabProperties": [
+        {
+            "name": "player",
+            "label": "Player",
+            "tooltip": "",
+            "defValue": "",
+            "customDefinition": false,
+            "type": {
+                "id": "object-var",
+                "expressionType": "Phaser.GameObjects.GameObject"
+            }
+        }
+    ]
+}

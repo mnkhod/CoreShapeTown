@@ -23,6 +23,7 @@ import StonePrefab_2 from "../prefabs/stone/StonePrefab_2";
 import WaterwellPrefab from "../prefabs/Fountan/WaterwellPrefab";
 import DeadTree2 from "../prefabs/Trees/DeadTree2";
 import DeadTree1 from "../prefabs/Trees/DeadTree1";
+import OpenWiki from "../prefabs/hud/OpenWiki";
 /* START-USER-IMPORTS */
 import questSystem from "../../components/QuestSystem";
 import { extendSceneWithQuests } from "../../components/QuestSystem";
@@ -37,6 +38,7 @@ import {
 	checkMasterOfTheFieldAchievement,
 	checkTasteOfGoldAchievement
 } from "../utility"
+import initializeGameProgression from "../../components/gameProgression";
 /* END-USER-IMPORTS */
 
 export default class ShapeTownFarmingMapScene extends Phaser.Scene {
@@ -399,6 +401,10 @@ export default class ShapeTownFarmingMapScene extends Phaser.Scene {
 		deadTree_2.flipX = true;
 		deadTree_2.flipY = false;
 
+		// openWiki
+		const openWiki = new OpenWiki(this, 372, 1283);
+		this.add.existing(openWiki);
+
 		// oldManJackNpcPrefab (prefab fields)
 		oldManJackNpcPrefab.player = playerPrefab;
 		oldManJackNpcPrefab.msgPrefab = messagePrefab;
@@ -476,6 +482,7 @@ export default class ShapeTownFarmingMapScene extends Phaser.Scene {
 		this.deadTree1 = deadTree1;
 		this.deadTree = deadTree;
 		this.deadTree_2 = deadTree_2;
+		this.openWiki = openWiki;
 		this.shapetownFarmingMap = shapetownFarmingMap;
 
 		this.events.emit("scene-awake");
@@ -625,6 +632,8 @@ export default class ShapeTownFarmingMapScene extends Phaser.Scene {
 	deadTree;
 	/** @type {DeadTree1} */
 	deadTree_2;
+	/** @type {OpenWiki} */
+	openWiki;
 	/** @type {Phaser.Tilemaps.Tilemap} */
 	shapetownFarmingMap;
 
@@ -750,6 +759,7 @@ export default class ShapeTownFarmingMapScene extends Phaser.Scene {
 		this.optionsListPrefab?.setDepth(90);
 		this.playerPrefab?.setDepth(90);
 		this.openQuest?.setDepth(90);
+		this.openWiki?.setDepth(90);
 	}
 
 	create() {
@@ -758,7 +768,7 @@ export default class ShapeTownFarmingMapScene extends Phaser.Scene {
 		this.cameras.main.setBounds(0, 0, 2550, 1920);
 		this.physics.world.bounds.width = 1000;
 		this.physics.world.bounds.height = 800;
-
+		initializeGameProgression(this);
 		if (!this.game.questSystem) {
 			this.game.questSystem = questSystem;
 		}

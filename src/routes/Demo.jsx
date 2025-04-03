@@ -11,6 +11,8 @@ import SignOutModal from '../components/LogoutComponent';
 import LeaderboardComponent from '../components/LeaderBoard';
 import MerchantBuyScreen from '../components/TradingBuy';
 import MerchantSellScreen from '../components/TradingSell';
+import SeedSelector from '../components/InfoSelection';
+import SeedDetails from '../components/InfoDetails';
 
 function Demo() {
     const [showTrader, setShowTrader] = useState(false);
@@ -25,6 +27,8 @@ function Demo() {
     const [showLeaderboard, setShowLeaderboard] = useState(false);
     const [showShopSell, setShowShopSell] = useState(false);
     const [showShopBuy, setShowShopBuy] = useState(false);
+    const [currentSeed, setCurrentSeed] = useState(false);
+    const [details, setDetails] = useState(false);
     const handleTrade = ({ fromAmount, fromToken, toToken }) => {
         console.log('Trading:', { fromAmount, fromToken, toToken });
     };
@@ -107,6 +111,19 @@ function Demo() {
             >
                 Open Shop(Buy)
             </button>
+            
+            <button 
+                onClick={() => setCurrentSeed(true)}
+                className="px-4 py-2 bg-orange-300 border-2 border-yellow-900 rounded text-yellow-900"
+            >
+                Open Selection
+            </button>
+            <button 
+                onClick={() => setDetails(true)}
+                className="px-4 py-2 bg-orange-300 border-2 border-yellow-900 rounded text-yellow-900"
+            >
+                Open Details
+            </button>
             {showTrader && (
                 <TokenTrader 
                     balance={1000}
@@ -185,6 +202,18 @@ function Demo() {
                 <MerchantBuyScreen
                     onClose={() => setShowShopBuy(false)}
                     isOpen={showShopBuy}
+                />
+            )}
+            {currentSeed && (
+                <SeedSelector
+                    onClose={() => setCurrentSeed(false)}
+                    isOpen={currentSeed}
+                />
+            )}
+            {details && (
+                <SeedDetails
+                    onClose={() => setDetails(false)}
+                    isOpen={details}
                 />
             )}
         </div>

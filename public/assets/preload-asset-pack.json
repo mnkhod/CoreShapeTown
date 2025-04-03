@@ -3326,6 +3326,11 @@
                 "key": "ShopInteriorObjects_"
             },
             {
+                "url": "assets/hud/Wiki/ShotCut_Buttom_Wiki.png",
+                "type": "image",
+                "key": "ShotCut_Buttom_Wiki"
+            },
+            {
                 "url": "assets/Ground tileset/SoilCorner_v02.png",
                 "frameConfig": {
                     "frameWidth": 32,
@@ -3999,6 +4004,16 @@
                 },
                 "type": "spritesheet",
                 "key": "WaterwellRoof"
+            },
+            {
+                "url": "assets/hud/Wiki/Wiki_Click_V01.png",
+                "type": "image",
+                "key": "Wiki_Click_V01"
+            },
+            {
+                "url": "assets/hud/Wiki/Wiki_Normal_V01.png",
+                "type": "image",
+                "key": "Wiki_Normal_V01"
             }
         ]
     },

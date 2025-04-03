@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
 
-import Phaser from 'phaser';
 import { PhaserGame } from './game/PhaserGame';
 import SettingsComponent from './components/Settings';
 import AchievementHUD from './components/AchievementHUD';
@@ -14,6 +13,8 @@ import SignOutModal from './components/LogoutComponent';
 import LeaderboardComponent from './components/LeaderBoard';
 import MerchantSellScreen from './components/TradingSell';
 import MerchantBuyScreen from './components/TradingBuy';
+import SeedSelector from './components/InfoSelection';
+import createPlantProgressionSystem from './components/plant-progression-utility';
 
 import { ethers } from "ethers";
 import { EventBus } from "./game/EventBus";
@@ -37,6 +38,8 @@ function App() {
     const [showShopSell, setShowShopSell] = useState(false);
     const [showShopBuy, setShowShopBuy] = useState(false);
     const [merchantType, setMerchantType] = useState('farmer');
+    const [showSeedEncyclopedia, setShowSeedEncyclopedia] = useState(false);
+    const [plantProgression, setPlantProgression] = useState(() => createPlantProgressionSystem());
 
     const [gameData] = useState({});
 
@@ -61,6 +64,7 @@ function App() {
         setShowLeaderboard(false);
         setShowShopSell(false);
         setShowShopBuy(false);
+        setShowSeedEncyclopedia(false);
     
         switch (id) {
             case "ACHIVEMENTS":
@@ -115,7 +119,12 @@ function App() {
                 }
                 setShowShopBuy(true);
                 break;
-
+            case "SEEDENCYCLOPEDIA":
+                if (modalData && modalData.phaserInstance) {
+                    setPhaserInstance(modalData.phaserInstance);
+                }
+                setShowSeedEncyclopedia(true);
+                break;
             default:
                 break;
         }
@@ -123,6 +132,9 @@ function App() {
 
     useEffect(() => {
         getMetamaskAccount();
+        
+        plantProgression.loadFromStorage();
+        setPlantProgression({...plantProgression});
         
         const handleOpenMerchantBuy = (data) => {
             console.log('Opening merchant buy screen with data:', data);
@@ -155,17 +167,52 @@ function App() {
             setShowShopSell(false);
             setPhaserInstance(null);
         };
+        
+        const handleOpenSeedEncyclopedia = (data) => {
+            console.log('Opening seed encyclopedia with data:', data);
+            if (data && data.phaserInstance) {
+                setPhaserInstance(data.phaserInstance);
+            }
+            setShowSeedEncyclopedia(true);
+        };
+        
+        const handleCloseSeedEncyclopedia = () => {
+            setShowSeedEncyclopedia(false);
+            setPhaserInstance(null);
+        };
+        
+        const handlePlantGrown = (data) => {
+            if (data && data.seedId) {
+                const seedId = data.seedId.toLowerCase().replace(/\s+/g, '_');
+                const formattedSeedId = seedId.startsWith('seed_') ? seedId : `seed_${seedId}`;
+                
+                const tierIncreased = plantProgression.addPlantedCount(formattedSeedId, 1);
+                plantProgression.saveToStorage();
+                setPlantProgression({...plantProgression});
+                
+                if (tierIncreased && data.phaserInstance && data.phaserInstance.alertPrefab) {
+                    const tier = plantProgression.data[formattedSeedId].tier;
+                    data.phaserInstance.alertPrefab.alert(`Encyclopedia: ${formattedSeedId.replace('seed_', '')} knowledge increased to Tier ${tier}!`);
+                }
+            }
+        };
 
         EventBus.on('open-merchant-buy', handleOpenMerchantBuy);
         EventBus.on('close-merchant-buy', handleCloseMerchantBuy);
         EventBus.on('open-merchant-sell', handleOpenMerchantSell);
         EventBus.on('close-merchant-sell', handleCloseMerchantSell);
+        EventBus.on('open-seed-encyclopedia', handleOpenSeedEncyclopedia);
+        EventBus.on('close-seed-encyclopedia', handleCloseSeedEncyclopedia);
+        EventBus.on('plant-grown', handlePlantGrown);
 
         return () => {
             EventBus.off('open-merchant-buy', handleOpenMerchantBuy);
             EventBus.off('close-merchant-buy', handleCloseMerchantBuy);
             EventBus.off('open-merchant-sell', handleOpenMerchantSell);
             EventBus.off('close-merchant-sell', handleCloseMerchantSell);
+            EventBus.off('open-seed-encyclopedia', handleOpenSeedEncyclopedia);
+            EventBus.off('close-seed-encyclopedia', handleCloseSeedEncyclopedia);
+            EventBus.off('plant-grown', handlePlantGrown);
         };
     }, []);
     
@@ -282,7 +329,6 @@ function App() {
                     isOpen={showShopSell}
                 />
             )}
-
             {showShopBuy && (
                 <MerchantBuyScreen
                     phaserInstance={phaserInstance}
@@ -294,7 +340,16 @@ function App() {
                     isOpen={showShopBuy}
                 />
             )}
-
+            {showSeedEncyclopedia && (
+                <SeedSelector
+                    progression={plantProgression}
+                    onClose={() => {
+                        setShowSeedEncyclopedia(false);
+                        setPhaserInstance(null);
+                    }}
+                    isOpen={showSeedEncyclopedia}
+                />
+            )}
         </div>
     )
 }

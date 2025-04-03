@@ -9,7 +9,7 @@ const CROP_DATA = {
         seedPrice: 10,
         sellingPrice: 25,
         growthDays: 2,
-        growthMinutes: 30,
+        growthMinutes: 10,
         tier: "common",
         spritesheet: "Crop_Cycle_Carrot",
         seedFrame: 0,
@@ -24,13 +24,13 @@ const CROP_DATA = {
         seedPrice: 40,
         sellingPrice: 80,
         growthDays: 3,
-        growthMinutes: 48,
+        growthMinutes: 10,
         tier: "Uncommon",
         spritesheet: "Crop_Cycle_Bokchok",
         seedFrame: 0,
         growthFrames: [1, 2, 3, 4],
         harvestFrame: 6,
-        harvestAsset: "crops-bok-chok",
+        harvestAsset: "crops-bokchok",
         seedAsset: "crops-seed bags-bokchok",
         displayName: "Bok Chok"
     },
@@ -39,7 +39,7 @@ const CROP_DATA = {
         seedPrice: 55,
         sellingPrice: 110,
         growthDays: 4,
-        growthMinutes: 64,
+        growthMinutes: 10,
         tier: "Rare",
         spritesheet: "Crop_Cycle_Broccoli",
         seedFrame: 0,
@@ -54,7 +54,7 @@ const CROP_DATA = {
         seedPrice: 15,
         sellingPrice: 30,
         growthDays: 2,
-        growthMinutes: 32,
+        growthMinutes: 10,
         tier: "common",
         spritesheet: "Crop_Cycle_Wheat",
         seedFrame: 0,
@@ -69,7 +69,7 @@ const CROP_DATA = {
         seedPrice: 20,
         sellingPrice: 40,
         growthDays: 3,
-        growthMinutes: 48,
+        growthMinutes: 10,
         tier: "common",
         spritesheet: "Crop_Cycle_Potato",
         seedFrame: 0,
@@ -84,7 +84,7 @@ const CROP_DATA = {
         seedPrice: 30,
         sellingPrice: 60,
         growthDays: 3,
-        growthMinutes: 48,
+        growthMinutes: 10,
         tier: "Uncommon",
         spritesheet: "Crop_Cycle_Cauliflower",
         seedFrame: 0,
@@ -99,7 +99,7 @@ const CROP_DATA = {
         seedPrice: 70,
         sellingPrice: 140,
         growthDays: 3,
-        growthMinutes: 48,
+        growthMinutes: 10,
         tier: "Rare",
         spritesheet: "Crop_Cycle_Chili",
         seedFrame: 0,
@@ -114,7 +114,7 @@ const CROP_DATA = {
         seedPrice: 50,
         sellingPrice: 100,
         growthDays: 5,
-        growthMinutes: 80,
+        growthMinutes: 10,
         tier: "Rare",
         spritesheet: "Crop_Cycle_Corn",
         seedFrame: 0,
@@ -129,7 +129,7 @@ const CROP_DATA = {
         seedPrice: 65,
         sellingPrice: 130,
         growthDays: 5,
-        growthMinutes: 80,
+        growthMinutes: 10,
         tier: "Rare",
         spritesheet: "Crop_Cycle_EggPlant",
         seedFrame: 0,
@@ -144,7 +144,7 @@ const CROP_DATA = {
         seedPrice: 25,
         sellingPrice: 50,
         growthDays: 4,
-        growthMinutes: 64,
+        growthMinutes: 10,
         tier: "Uncommon",
         spritesheet: "Crop_Cycle_Greenbean",
         seedFrame: 0,
@@ -159,7 +159,7 @@ const CROP_DATA = {
         seedPrice: 12,
         sellingPrice: 24,
         growthDays: 2,
-        growthMinutes: 32,
+        growthMinutes: 10,
         tier: "common",
         spritesheet: "Crop_Cycle_Parsnip",
         seedFrame: 0,
@@ -174,7 +174,7 @@ const CROP_DATA = {
         seedPrice: 125,
         sellingPrice: 250,
         growthDays: 6,
-        growthMinutes: 96,
+        growthMinutes: 10,
         tier: "Very Rare",
         spritesheet: "Crop_Cycle_Pumpkin",
         seedFrame: 0,
@@ -189,7 +189,7 @@ const CROP_DATA = {
         seedPrice: 15,
         sellingPrice: 30,
         growthDays: 1,
-        growthMinutes: 16,
+        growthMinutes: 10,
         tier: "common",
         spritesheet: "Crop_Cycle_Radish",
         seedFrame: 0,
@@ -204,7 +204,7 @@ const CROP_DATA = {
         seedPrice: 45,
         sellingPrice: 90,
         growthDays: 4,
-        growthMinutes: 64,
+        growthMinutes: 10,
         tier: "Uncommon",
         spritesheet: "Crop_Cycle_RedCabagge",
         seedFrame: 0,
@@ -219,7 +219,7 @@ const CROP_DATA = {
         seedPrice: 35,
         sellingPrice: 70,
         growthDays: 3,
-        growthMinutes: 48,
+        growthMinutes: 10,
         tier: "Uncommon",
         spritesheet: "Crop_Cycle_Garlic",
         seedFrame: 0,
@@ -234,7 +234,7 @@ const CROP_DATA = {
         seedPrice: 60,
         sellingPrice: 120,
         growthDays: 5,
-        growthMinutes: 80,
+        growthMinutes: 10,
         tier: "Rare",
         spritesheet: "Fruit_Cycle_Grape",
         seedFrame: 0,
@@ -249,7 +249,7 @@ const CROP_DATA = {
         seedPrice: 80,
         sellingPrice: 160,
         growthDays: 5,
-        growthMinutes: 80,
+        growthMinutes: 10,
         tier: "Rare",
         spritesheet: "Fruit_Cycle_Melon",
         seedFrame: 0,
@@ -264,14 +264,14 @@ const CROP_DATA = {
         seedPrice: 75,
         sellingPrice: 150,
         growthDays: 4,
-        growthMinutes: 64,
+        growthMinutes: 10,
         tier: "Rare",
         spritesheet: "Fruit_Cycle_Coffee",
         seedFrame: 0,
         growthFrames: [1, 2, 3, 4],
         harvestFrame: 6,
-        harvestAsset: "crops-coffee bean",
-        seedAsset: "crops-seed bags-coffee bean",
+        harvestAsset: "crops-coffee",
+        seedAsset: "crops-seed bags-coffee",
         displayName: "Coffee Bean"
     },
     "BLUEBERRY": {
@@ -279,7 +279,7 @@ const CROP_DATA = {
         seedPrice: 50,
         sellingPrice: 100,
         growthDays: 4,
-        growthMinutes: 64,
+        growthMinutes: 10,
         tier: "Uncommon",
         spritesheet: "Fruit_Cycle_Blueberry",
         seedFrame: 0,
@@ -294,7 +294,7 @@ const CROP_DATA = {
         seedPrice: 60,
         sellingPrice: 120,
         growthDays: 4,
-        growthMinutes: 64,
+        growthMinutes: 10,
         tier: "Uncommon",
         spritesheet: "Fruit_Cycle_Strawberry",
         seedFrame: 0,
@@ -309,7 +309,7 @@ const CROP_DATA = {
         seedPrice: 45,
         sellingPrice: 90,
         growthDays: 3,
-        growthMinutes: 48,
+        growthMinutes: 10,
         tier: "Uncommon",
         spritesheet: "Fruit_Cycle_Tomato",
         seedFrame: 0,
@@ -324,7 +324,7 @@ const CROP_DATA = {
         seedPrice: 40,
         sellingPrice: 80,
         growthDays: 3,
-        growthMinutes: 48,
+        growthMinutes: 10,
         tier: "Uncommon",
         spritesheet: "Fruit_Cycle_Artichoke",
         seedFrame: 0,
@@ -339,7 +339,7 @@ const CROP_DATA = {
         seedPrice: 10,
         sellingPrice: 20,
         growthDays: 2,
-        growthMinutes: 32,
+        growthMinutes: 10,
         tier: "Common",
         spritesheet: "Crop_Cycle_Wheat",
         seedFrame: 0,
@@ -400,32 +400,32 @@ export default class HarvestPrefab extends Phaser.GameObjects.Sprite {
 
     prefabCreateCycle() {
         this.setupBasedOnState();
-
+    
         this.on('pointerover', () => {
             this.preFX.addGlow(16777215, 4, 0, false);
             this.showGrowthInfo();
         }, this);
-
+    
         this.on('pointerout', () => {
             this.preFX.clear();
             this.hideGrowthInfo();
         }, this);
-
+    
         this.on('pointerdown', function (_pointer) {
             if (!this.scene.playerPrefab) throw Error("Scene doesnt have playerPrefab");
-
+    
             let distance = this.getDistance(this.scene.playerPrefab, this);
-
+    
             if (distance > 80) {
                 this.scene.alertPrefab.alert("Too Far");
                 return;
             }
-
+    
             if (this.isWatered && this.isReadyForHarvest == false) {
                 this.scene.alertPrefab.alert("Already Watered");
                 return;
             }
-
+    
             if (this.isReadyForHarvest) {
                 const cropData = CROP_DATA[this.seed];
                 const harvestAsset = cropData ? cropData.harvestAsset : `crops-${this.seed.toLowerCase()}`;
@@ -435,6 +435,9 @@ export default class HarvestPrefab extends Phaser.GameObjects.Sprite {
                 this.scene.newItemHudPrefab.addItem(this.seed, harvestAsset, 0, 1, true);
                 
                 console.log("Harvesting crop:", this.seed);
+                
+                this.updatePlantProgression(this.seed);
+                
                 if (this.scene.triggerQuestEvent) {
                     console.log("Triggering harvest quest event");
                     this.scene.triggerQuestEvent('harvest:cropHarvested', { crop: this.seed, harvest: this });
@@ -450,11 +453,102 @@ export default class HarvestPrefab extends Phaser.GameObjects.Sprite {
                 this.setupBasedOnState();
                 return;
             }
-
+    
             this.changeState();
         }, this);
     }
 
+    updatePlantProgression(seedName) {
+        const formattedSeedId = "seed_" + seedName.toLowerCase();
+        if (!window.plantProgressionSystem) {
+            console.log("Creating new plant progression system");
+            if (typeof createPlantProgressionSystem === 'function') {
+                window.plantProgressionSystem = createPlantProgressionSystem();
+            } else {
+                window.plantProgressionSystem = {
+                    data: {},
+                    addPlantedCount: function(seedId, count) {
+                        if (!this.data[seedId]) {
+                            this.data[seedId] = { plantCount: 0, tier: 0 };
+                        }
+                        
+                        const oldTier = this.data[seedId].tier;
+                        this.data[seedId].plantCount += count;
+                        
+                        const thresholds = [0, 5, 15, 30, 50];
+                        for (let i = this.data[seedId].tier; i < 5; i++) {
+                            if (this.data[seedId].plantCount >= thresholds[i]) {
+                                this.data[seedId].tier = i + 1;
+                            } else {
+                                break;
+                            }
+                        }
+                        
+                        return this.data[seedId].tier > oldTier;
+                    },
+                    saveToStorage: function() {
+                        try {
+                            const walletAddress = window.ethereum && window.ethereum.selectedAddress ? 
+                                window.ethereum.selectedAddress : '';
+                            const keyPrefix = walletAddress ? 
+                                `plantProgression_${walletAddress}` : 'plantProgression';
+                                
+                            localStorage.setItem(`${keyPrefix}_data`, JSON.stringify(this.data));
+                        } catch (e) {
+                            console.error('Failed to save progression data', e);
+                        }
+                    },
+                    loadFromStorage: function() {
+                        try {
+                            const walletAddress = window.ethereum && window.ethereum.selectedAddress ? 
+                                window.ethereum.selectedAddress : '';
+                            const keyPrefix = walletAddress ? 
+                                `plantProgression_${walletAddress}` : 'plantProgression';
+                                
+                            const savedData = localStorage.getItem(`${keyPrefix}_data`);
+                            if (savedData) {
+                                this.data = JSON.parse(savedData);
+                                return true;
+                            }
+                        } catch (e) {
+                            console.error('Failed to load progression data', e);
+                        }
+                        return false;
+                    }
+                };
+            }
+            
+            window.plantProgressionSystem.loadFromStorage();
+        }
+        
+        const tierIncreased = window.plantProgressionSystem.addPlantedCount(formattedSeedId, 1);
+        window.plantProgressionSystem.saveToStorage();
+        
+        if (tierIncreased && this.scene.alertPrefab) {
+            const tier = window.plantProgressionSystem.data[formattedSeedId].tier;
+            this.scene.alertPrefab.alert(`Encyclopedia: ${seedName.toLowerCase()} knowledge increased to Tier ${tier}!`);
+        }
+        
+        if (window.EventBus) {
+            console.log("Emitting plant-grown event via EventBus");
+            window.EventBus.emit("plant-grown", { 
+                seedId: formattedSeedId,
+                phaserInstance: this.scene
+            });
+        }
+        
+        if (this.scene.reactEvent) {
+            console.log("Emitting plant-grown event via scene.reactEvent");
+            this.scene.reactEvent.emit("plant-grown", {
+                seedId: formattedSeedId,
+                phaserInstance: this.scene
+            });
+        }
+        
+        if (this.scene.alertPrefab) {
+            this.scene.alertPrefab.alert(`Harvested ${seedName.toLowerCase()}!`);
+        }
+    }
     setupBasedOnState() {
         let timer = this.scene.time;
 
@@ -469,7 +563,6 @@ export default class HarvestPrefab extends Phaser.GameObjects.Sprite {
                         this.hasPlayerCollider = true;
                     }
                 }
-                // Clean up plant sprite if it exists
                 if (this.plantSprite) {
                     this.plantSprite.setVisible(false);
                 }
@@ -485,7 +578,6 @@ export default class HarvestPrefab extends Phaser.GameObjects.Sprite {
                         this.hasPlayerCollider = true;
                     }
                 }
-                // Clean up plant sprite if it exists
                 if (this.plantSprite) {
                     this.plantSprite.setVisible(false);
                 }
@@ -513,7 +605,6 @@ export default class HarvestPrefab extends Phaser.GameObjects.Sprite {
                 if (this.physicsBody) {
                     this.physicsBody.enable = false;
                 }
-                // Clean up plant sprite if it exists
                 if (this.plantSprite) {
                     this.plantSprite.setVisible(false);
                 }
@@ -541,7 +632,6 @@ export default class HarvestPrefab extends Phaser.GameObjects.Sprite {
                 if (this.physicsBody) {
                     this.physicsBody.enable = false;
                 }
-                // Clean up plant sprite if it exists
                 if (this.plantSprite) {
                     this.plantSprite.setVisible(false);
                 }
@@ -551,18 +641,15 @@ export default class HarvestPrefab extends Phaser.GameObjects.Sprite {
                 this.setTexture("Farming_Soil_Tile_V01", 0);
                 this.tileId = null;
                 this.preFX.clear();
-                // Ensure no plant is showing
                 if (this.plantSprite) {
                     this.plantSprite.setVisible(false);
                 }
                 break;
                 
             case "PLANTED":
-                // Set soil texture as the base
                 this.setTexture("Farming_Soil_Tile_V01", 0);
                 
                 if (CROP_DATA[this.seed]) {
-                    // Create or update the plant sprite with seed frame
                     if (!this.plantSprite) {
                         this.plantSprite = this.scene.add.sprite(this.x, this.y, 
                             CROP_DATA[this.seed].spritesheet, 
@@ -580,10 +667,8 @@ export default class HarvestPrefab extends Phaser.GameObjects.Sprite {
                 break;
                 
             case "WATERED":
-                // Set soil texture as the base
                 this.setTexture("Farming_Soil_Tile_V01", 0);
                 
-                // Show the seed sprite initially when watered
                 if (CROP_DATA[this.seed]) {
                     if (!this.plantSprite) {
                         this.plantSprite = this.scene.add.sprite(this.x, this.y, 
@@ -595,7 +680,6 @@ export default class HarvestPrefab extends Phaser.GameObjects.Sprite {
                     }
                 }
                 
-                // Set growth tracking variables
                 this.isWatered = true;
                 this.growthStartTime = Date.now();
                 this.growthStage = 0;
@@ -608,16 +692,13 @@ export default class HarvestPrefab extends Phaser.GameObjects.Sprite {
                 break;
                 
             default:
-                // Handle custom growth states (SEED_LEVEL_X)
                 if (this.state.includes("_LEVEL_")) {
-                    // Always set soil texture as the base
                     this.setTexture("Farming_Soil_Tile_V01", 0);
                     
                     const cropData = CROP_DATA[this.seed];
                     if (cropData) {
                         const level = parseInt(this.state.split("_").pop());
                         
-                        // Create or update the plant sprite
                         if (!this.plantSprite) {
                             this.plantSprite = this.scene.add.sprite(this.x, this.y, 
                                 cropData.spritesheet, 

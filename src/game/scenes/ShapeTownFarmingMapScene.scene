@@ -1331,6 +1331,18 @@
             "y": 1424,
             "flipX": true,
             "flipY": false
+        },
+        {
+            "prefabId": "3c6e9e95-0493-408e-8346-57059408f704",
+            "id": "958776c1-f027-46c6-a269-ae9b0106bb5a",
+            "unlock": [
+                "x",
+                "y"
+            ],
+            "label": "openWiki",
+            "scope": "CLASS",
+            "x": 372,
+            "y": 1283
         }
     ],
     "plainObjects": [
