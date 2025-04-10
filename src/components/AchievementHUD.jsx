@@ -59,22 +59,27 @@ const AchievementHUD = ({ onClose }) => {
     async function fetchAchievementInfo() {
         try {
             setIsLoading(true);
-            let contractAddress = "0x3A711d5E7e4d69eBef1B7e1b3715f463619A254c";
+            let contractAddress = "0x6bc9Da82cB85D6D9e34EF7b8B2F930a8A83F5FB2";
+            // let contractAddress = "0x3A711d5E7e4d69eBef1B7e1b3715f463619A254c";
             let contractAbi = [
                 "function balanceOf(address,uint256) view returns (uint256)",
                 "function mint(address,uint256,uint256,bytes)",
                 "function uri(uint256) view returns (string)",
             ];
 
+            // let provider = new ethers.JsonRpcProvider(
+            //     "https://rpc.test.btcs.network",
+            // );
+
             let provider = new ethers.JsonRpcProvider(
-                "https://rpc.test.btcs.network"
+                "https://rpc.open-campus-codex.gelato.digital",
             );
             let metamaskAccount = await fetchMetamaskAccount();
 
             const nftContract = new ethers.Contract(
                 contractAddress,
                 contractAbi,
-                provider
+                provider,
             );
 
             let nftIds = [0, 1, 2, 3, 4, 5, 6];
@@ -84,11 +89,11 @@ const AchievementHUD = ({ onClose }) => {
                 const nftId = nftIds[i];
                 let result = await nftContract.balanceOf(
                     metamaskAccount,
-                    nftId
+                    nftId,
                 );
                 if (result > 0) {
                     let axiosResult = await axios.get(
-                        `https://shape-town-api.vercel.app/nft/data/${nftId}`
+                        `https://shape-town-api.vercel.app/nft/data/${nftId}`,
                     );
                     results.push({
                         id: nftId.toString(),
@@ -202,4 +207,3 @@ AchievementSlot.propTypes = {
 };
 
 export default AchievementHUD;
-
