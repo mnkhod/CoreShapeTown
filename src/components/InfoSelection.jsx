@@ -41,7 +41,7 @@ const createPlantProgressionData = () => {
   progressionData.calculateTierProgress = (seedId) => {
     const data = progressionData[seedId];
     
-    const thresholds = [0, 5, 15, 30, 50];
+    const thresholds = [0, 1, 2, 3, 4];
     
     if (data.tier >= data.maxTier) {
       return 100;

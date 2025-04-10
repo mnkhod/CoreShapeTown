@@ -49,7 +49,7 @@ const getStorageKeyPrefix = () => {
         this.data[seedId].plantCount += count;
         
         // Calculate new tier based on thresholds
-        const thresholds = [0, 5, 15, 30, 50];
+        const thresholds = [0, 1, 2, 3, 4];
         for (let i = this.data[seedId].tier; i < 5; i++) {
           if (this.data[seedId].plantCount >= thresholds[i]) {
             this.data[seedId].tier = i + 1;
@@ -76,7 +76,7 @@ const getStorageKeyPrefix = () => {
         
         if (seed.tier >= 5) return 100;
         
-        const thresholds = [0, 5, 15, 30, 50];
+        const thresholds = [0, 1, 2, 3, 4];
         const currentThreshold = thresholds[seed.tier - 1] || 0;
         const nextThreshold = thresholds[seed.tier] || 5;
         const plantsNeeded = nextThreshold - currentThreshold;

@@ -96,7 +96,7 @@ export default class OldManJackNpcPrefab extends Phaser.GameObjects.Container {
         {
             msg: "Here are your platform passes.",
             onComplete: () => {
-                this.newItemHud.addItem("seed_carrot", "crops-seed bags-carrot", 0, 2);
+                this.newItemHud.addItem("seed_carrot", "crops-seed bags-carrot", 0, 5);
             }
         },
         {
