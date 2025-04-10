@@ -471,7 +471,7 @@ export default class NewItemHudPrefab extends Phaser.GameObjects.Container {
 					const frame = this.items[index].frame.name;
 
 					this.cursorIcon = this.scene.add.sprite(0, 0, texture, frame);
-					this.cursorIcon.setScale(0.6);
+					this.cursorIcon.setScale(0);
 					this.cursorIcon.setDepth(1000);
 					this.cursorIcon.setScrollFactor(0);
 				}
@@ -534,7 +534,7 @@ export default class NewItemHudPrefab extends Phaser.GameObjects.Container {
 	    }
 
 	    this.cursorIcon = this.scene.add.sprite(0, 0, selectedTexture, selectedFrame);
-	    this.cursorIcon.setScale(0.6);
+	    this.cursorIcon.setScale(0);
 	    this.cursorIcon.setDepth(1000);
 	    this.cursorIcon.setScrollFactor(0);
 	}
@@ -606,7 +606,7 @@ export default class NewItemHudPrefab extends Phaser.GameObjects.Container {
 					const frame = this.items[index].frame.name;
 
 					this.cursorIcon = this.scene.add.sprite(0, 0, texture, frame);
-					this.cursorIcon.setScale(0.6);
+					this.cursorIcon.setScale(0);
 					this.cursorIcon.setDepth(1000);
 					this.cursorIcon.setScrollFactor(0);
 				}
